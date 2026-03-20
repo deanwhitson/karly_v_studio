@@ -32,26 +32,10 @@ const Essays = () => {
     {
       id: 1,
       title: "Authentucaly 40+",
-      description: "A meditation on the gradual process of personal transformation and the patience required to become who we're meant to be.",
+      description: "On turning 40 in a youth obsessed world",
       image: "/Essay1_Coverpng.png",
       purchaseUrl: "https://kdp.amazon.com/en_US/bookshelf",
       category: "essays"
-    },
-    {
-      id: 2,
-      title: "EXAMPLE ESSAY 2",
-      description: "Exploring how the ideas we leave incomplete shape our creative process and the burden of potential that never becomes actual.",
-      image: "https://picsum.photos/seed/essay2/400/300.jpg",
-      purchaseUrl: "https://example.com/essay2",
-      category: "essays"
-    },
-    {
-      id: 3,
-      title: "EXAMPLE ESSAY Notes",
-      description: "On the intentional work of constructing a life with enough structure to contain both our ambitions and our vulnerabilities.",
-      image: "https://picsum.photos/seed/essay3/400/300.jpg",
-      purchaseUrl: "https://example.com/essay3",
-      category: "notes"
     }
   ];
 
