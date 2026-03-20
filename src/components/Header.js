@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -19,18 +20,18 @@ const Header = () => {
       <nav className="container-content py-6">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <h1 className="font-serif text-2xl font-medium text-charcoal">
+            <Link to="/" className="font-serif text-2xl font-medium text-charcoal hover:text-accent transition-colors duration-300">
               Karly V Studio
-            </h1>
+            </Link>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
+            <Link to="/" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
               Home
-            </a>
-            <a href="#essays" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
+            </Link>
+            <Link to="/essays" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
               Essays
-            </a>
+            </Link>
             <a href="#music" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
               Music
             </a>
