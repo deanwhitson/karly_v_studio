@@ -1,0 +1,8 @@
+{
+  "buildCommand": "set CI=false&& npm run build",
+  "build": {
+    "env": {
+      "CI": "false"
+    }
+  }
+}
