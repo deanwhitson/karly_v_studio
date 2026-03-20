@@ -14,8 +14,8 @@ const Footer = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-8 mb-12">
-            <a href="mailto:hello@karlyvstudio.com" className="text-off-white hover:text-accent-light transition-colors duration-300">
-              hello@karlyvstudio.com
+            <a href="mailto:karlyvmusic@gmail.com" className="text-off-white hover:text-accent-light transition-colors duration-300">
+              karlyvmusic@gmail.com
             </a>
             <div className="flex items-center space-x-6">
               <a href="#" className="text-light-gray hover:text-off-white transition-colors duration-300">

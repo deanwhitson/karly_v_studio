@@ -38,41 +38,42 @@ const About = () => {
             <div className="w-16 h-0.5 bg-accent mx-auto"></div>
           </div>
           
-          <div className="space-y-6 text-lg leading-relaxed">
-            <p className="text-charcoal">
-              Karly V is a designer and creative director specializing in editorial design, 
-              brand identity, and digital experiences. With a background in fine arts and 
-              graphic design, her work is characterized by thoughtful minimalism, 
-              sophisticated typography, and a deep understanding of visual hierarchy.
+          <div className="space-y-8 text-xl leading-relaxed text-center max-w-4xl mx-auto">
+            <p className="text-charcoal font-light tracking-[0.01em]">
+              I'm Karly V — a musician, writer, and voice artist.
             </p>
             
-            <p className="text-charcoal">
-              Her approach combines strategic thinking with artistic sensibility, creating 
-              designs that are both beautiful and purposeful. Each project is an opportunity 
-              to tell a story, evoke emotion, and create meaningful connections between 
-              brands and their audiences.
+            <p className="text-charcoal font-light tracking-[0.01em]">
+              My work spans music, essays, and visual composition, but it all comes from the same place: a need to understand and make sense of experience.
             </p>
             
-            <p className="text-charcoal">
-              Based in New York City, Karly collaborates with clients worldwide, from 
-              independent publishers and cultural institutions to innovative startups and 
-              established luxury brands.
+            <p className="text-charcoal font-light tracking-[0.01em]">
+              Creating like this isn't optional for me. If things stay unstructured — in thought, in emotion, in memory — they build. Writing, music, and visual work are how I process them properly.
             </p>
-          </div>
-          
-          <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div>
-              <h3 className="font-serif text-2xl font-medium text-charcoal mb-2">8+</h3>
-              <p className="text-medium-gray">Years Experience</p>
-            </div>
-            <div>
-              <h3 className="font-serif text-2xl font-medium text-charcoal mb-2">50+</h3>
-              <p className="text-medium-gray">Projects Completed</p>
-            </div>
-            <div>
-              <h3 className="font-serif text-2xl font-medium text-charcoal mb-2">12</h3>
-              <p className="text-medium-gray">Industry Awards</p>
-            </div>
+            
+            <p className="text-charcoal font-light tracking-[0.01em]">
+              I don't create to express everything as it comes. I create to shape it — to take something unclear or unresolved and work it into a form that holds.
+            </p>
+            
+            <p className="text-charcoal font-light tracking-[0.01em]">
+              When something is structured, it becomes easier to understand.
+            </p>
+            
+            <p className="text-charcoal font-light tracking-[0.01em]">
+              When it's understood, it becomes easier to live with.
+            </p>
+            
+            <p className="text-charcoal font-light tracking-[0.01em]">
+              That process — from fragmentation to form — is where the work happens. This isn't a self-help space, and it's not meant to be objective.
+            </p>
+            
+            <p className="text-charcoal font-light tracking-[0.01em]">
+              Everything here is written from my perspective — shaped by what I've experienced, what I've questioned, and what I've been able to understand with the information available to me.
+            </p>
+            
+            <p className="text-charcoal font-light tracking-[0.01em]">
+              The aim isn't to provide answers. It's to explore things properly — and, in doing that, to make them feel a little more grounded.
+            </p>
           </div>
         </div>
       </div>

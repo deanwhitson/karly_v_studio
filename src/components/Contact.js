@@ -50,22 +50,22 @@ const Contact = () => {
                 New Projects
               </h3>
               <a 
-                href="mailto:hello@karlyvstudio.com" 
+                href="mailto:karlyvmusic@gmail.com" 
                 className="text-lg text-accent hover:text-charcoal transition-colors duration-300"
               >
-                hello@karlyvstudio.com
+                karlyvmusic@gmail.com
               </a>
             </div>
             
             <div>
               <h3 className="font-serif text-xl font-medium text-charcoal mb-4">
-                General Inquiries
+                Phone
               </h3>
               <a 
-                href="mailto:info@karlyvstudio.com" 
+                href="tel:0837853777" 
                 className="text-lg text-accent hover:text-charcoal transition-colors duration-300"
               >
-                info@karlyvstudio.com
+                083 785 3777
               </a>
             </div>
             

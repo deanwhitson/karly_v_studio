@@ -14,7 +14,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="min-h-screen flex flex-col relative overflow-hidden">
+    <section id="home" className="min-h-screen flex flex-col relative overflow-hidden">
       {/* Title Above Image */}
       <div className="relative z-10 w-full px-6 sm:px-8 lg:px-12 pt-20 sm:pt-32">
         <div 

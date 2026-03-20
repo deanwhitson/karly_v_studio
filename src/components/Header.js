@@ -25,6 +25,12 @@ const Header = () => {
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
+            <a href="#home" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
+              Home
+            </a>
+            <a href="#essays" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
+              Essays
+            </a>
             <a href="#about" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
               About
             </a>
