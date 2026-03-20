@@ -31,11 +31,14 @@ const Header = () => {
             <a href="#essays" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
               Essays
             </a>
+            <a href="#music" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
+              Music
+            </a>
+            <a href="#notes" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
+              Notes
+            </a>
             <a href="#about" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
               About
-            </a>
-            <a href="#work" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
-              Work
             </a>
             <a href="#contact" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
               Contact
