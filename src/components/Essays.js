@@ -34,7 +34,7 @@ const Essays = () => {
       title: "Authentucaly 40+",
       description: "On turning 40 in a youth obsessed world",
       image: "/Essay1_Coverpng.png",
-      purchaseUrl: "https://kdp.amazon.com/en_US/bookshelf",
+      purchaseUrl: "https://www.amazon.com/dp/B0GQXTD12C",
       category: "essays"
     }
   ];
