@@ -27,21 +27,24 @@ const ContentBlocks = () => {
   const contentBlocks = [
     {
       title: "ESSAYS",
-      description: "A series of long-form essays exploring authorship, identity, and the middle of life.",
+      description: "A series of long-form essays exploring authorship, identity, and middle of life.",
       cta: "Read Essays",
-      delay: 0
+      delay: 0,
+      href: "/essays"
     },
     {
       title: "MUSIC",
       description: "Original music — recorded, written, and performed across different phases.",
       cta: "Listen",
-      delay: 150
+      delay: 150,
+      href: "#"
     },
     {
       title: "NOTES",
       description: "Shorter pieces. Fragments, reflections, and ideas that don't need to become essays.",
       cta: "Read Notes",
-      delay: 300
+      delay: 300,
+      href: "/notes"
     }
   ];
 
@@ -56,7 +59,7 @@ const ContentBlocks = () => {
             {contentBlocks.map((block, index) => (
               <a 
                 key={index}
-                href="#"
+                href={block.href}
                 className="group block p-10 lg:p-12 bg-warm-white border border-pale-gray/50 hover:border-charcoal/10 transition-all duration-700 hover:bg-off-white relative overflow-hidden"
                 style={{ animationDelay: `${block.delay}ms` }}
               >

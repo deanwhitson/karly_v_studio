@@ -35,9 +35,9 @@ const Header = () => {
             <a href="#music" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
               Music
             </a>
-            <a href="#notes" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
+            <Link to="/notes" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
               Notes
-            </a>
+            </Link>
             <a href="#about" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
               About
             </a>
