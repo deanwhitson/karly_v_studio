@@ -10,6 +10,7 @@ import ClosingSection from './components/ClosingSection';
 import Footer from './components/Footer';
 import Essays from './components/Essays';
 import Notes from './components/Notes';
+import Music from './components/Music';
 
 function HomePage() {
   return (
@@ -34,6 +35,7 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/essays" element={<Essays />} />
             <Route path="/notes" element={<Notes />} />
+            <Route path="/music" element={<Music />} />
           </Routes>
         </main>
         <Footer />

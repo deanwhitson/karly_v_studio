@@ -68,7 +68,7 @@ const Contact = () => {
                 <a href="https://www.linkedin.com/in/karly-v-a9424451/" className="text-medium-gray hover:text-charcoal transition-colors duration-300">
                   LinkedIn
                 </a>
-                <a href="https://www.facebook.com/search/top?q=karly%20v" className="text-medium-gray hover:text-charcoal transition-colors duration-300">
+                <a href="https://www.facebook.com/karlyvofficial" className="text-medium-gray hover:text-charcoal transition-colors duration-300">
                   Facebook
                 </a>
               </div>

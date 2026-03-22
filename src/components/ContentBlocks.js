@@ -37,7 +37,7 @@ const ContentBlocks = () => {
       description: "Original music — recorded, written, and performed across different phases.",
       cta: "Listen",
       delay: 150,
-      href: "#"
+      href: "/music"
     },
     {
       title: "NOTES",

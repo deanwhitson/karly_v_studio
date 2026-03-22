@@ -32,9 +32,9 @@ const Header = () => {
             <Link to="/essays" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
               Essays
             </Link>
-            <a href="#music" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
+            <Link to="/music" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
               Music
-            </a>
+            </Link>
             <Link to="/notes" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
               Notes
             </Link>
