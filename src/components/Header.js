@@ -38,12 +38,12 @@ const Header = () => {
             <Link to="/notes" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
               Notes
             </Link>
-            <a href="#about" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
+            <Link to="/about" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
               About
-            </a>
-            <a href="#contact" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
+            </Link>
+            <Link to="/contact" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
               Contact
-            </a>
+            </Link>
           </div>
 
           <button className="md:hidden p-2 rounded-md hover:bg-pale-gray transition-colors duration-300">
