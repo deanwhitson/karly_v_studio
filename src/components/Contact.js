@@ -57,31 +57,19 @@ const Contact = () => {
               </a>
             </div>
             
-            <div>
-              <h3 className="font-serif text-xl font-medium text-charcoal mb-4">
-                Phone
-              </h3>
-              <a 
-                href="tel:0837853777" 
-                className="text-lg text-accent hover:text-charcoal transition-colors duration-300"
-              >
-                083 785 3777
-              </a>
-            </div>
-            
             <div className="pt-8 border-t border-pale-gray">
               <p className="text-medium-gray mb-4">
                 You can also find me on:
               </p>
               <div className="flex justify-center space-x-8">
-                <a href="#" className="text-medium-gray hover:text-charcoal transition-colors duration-300">
+                <a href="https://www.instagram.com/karlyvthemusic/" className="text-medium-gray hover:text-charcoal transition-colors duration-300">
                   Instagram
                 </a>
-                <a href="#" className="text-medium-gray hover:text-charcoal transition-colors duration-300">
+                <a href="https://www.linkedin.com/in/karly-v-a9424451/" className="text-medium-gray hover:text-charcoal transition-colors duration-300">
                   LinkedIn
                 </a>
-                <a href="#" className="text-medium-gray hover:text-charcoal transition-colors duration-300">
-                  Behance
+                <a href="https://www.facebook.com/search/top?q=karly%20v" className="text-medium-gray hover:text-charcoal transition-colors duration-300">
+                  Facebook
                 </a>
               </div>
             </div>
