@@ -89,6 +89,15 @@ const Music = () => {
       purchaseUrl: "#",
       streamingUrl: "#",
       comingSoon: true
+    },
+    {
+      id: 7,
+      title: "Sat It Loud",
+      cover: "/SongsAndCovers/Sat It Loud - Website Sample.mp3",
+      previewUrl: "/music/sat-it-loud-preview.mp3",
+      fullVersionAvailable: true,
+      purchaseUrl: "#",
+      streamingUrl: "#"
     }
   ];
 
