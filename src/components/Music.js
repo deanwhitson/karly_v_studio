@@ -46,7 +46,7 @@ const Music = () => {
       id: 2,
       title: "Say it Loud",
       cover: "/SongsAndCovers/Cover_Art_Say it Loud.png",
-      previewUrl: "/music/morning-light-preview.mp3",
+      previewUrl: "/SongsAndCovers/Say%20It%20Loud%20-%20Website%20Sample.mp3",
       fullVersionAvailable: true,
       purchaseUrl: "#",
       streamingUrl: "#"
@@ -62,7 +62,7 @@ const Music = () => {
     },
     {
       id: 4,
-      title: "Electric Hearts",
+      title: "Coming Soon",
       cover: "/music/track-4.jpg",
       previewUrl: "/music/electric-hearts-preview.mp3",
       fullVersionAvailable: false,
@@ -72,7 +72,7 @@ const Music = () => {
     },
     {
       id: 5,
-      title: "Still Waters",
+      title: "Coming Soon",
       cover: "/music/track-5.jpg",
       previewUrl: "/music/still-waters-preview.mp3",
       fullVersionAvailable: false,
@@ -82,22 +82,13 @@ const Music = () => {
     },
     {
       id: 6,
-      title: "Neon Nights",
+      title: "Coming Soon",
       cover: "/music/track-6.jpg",
       previewUrl: "/music/neon-nights-preview.mp3",
       fullVersionAvailable: false,
       purchaseUrl: "#",
       streamingUrl: "#",
       comingSoon: true
-    },
-    {
-      id: 7,
-      title: "Sat It Loud",
-      cover: "/SongsAndCovers/Sat It Loud - Website Sample.mp3",
-      previewUrl: "/music/sat-it-loud-preview.mp3",
-      fullVersionAvailable: true,
-      purchaseUrl: "#",
-      streamingUrl: "#"
     }
   ];
 
