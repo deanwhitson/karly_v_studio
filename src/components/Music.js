@@ -4,12 +4,10 @@ import PreviewPlayer from './PreviewPlayer';
 
 const Music = () => {
   const musicRef = useRef(null);
-  const featuredRef = useRef(null);
   const gridRef = useRef(null);
   const [isPlaying, setIsPlaying] = useState(false);
   const [currentTrackId, setCurrentTrackId] = useState(null);
   const [heroVisible, setHeroVisible] = useState(false);
-  const [featuredVisible, setFeaturedVisible] = useState(false);
   const [gridVisible, setGridVisible] = useState(false);
 
   useEffect(() => {
@@ -21,41 +19,24 @@ const Music = () => {
     }, 300);
 
     // Staggered section reveals
-    const featuredTimer = setTimeout(() => {
-      if (featuredRef.current) {
-        featuredRef.current.classList.add('is-visible');
-        setFeaturedVisible(true);
-      }
-    }, 800);
-
     const gridTimer = setTimeout(() => {
       if (gridRef.current) {
         gridRef.current.classList.add('is-visible');
         setGridVisible(true);
       }
-    }, 1200);
+    }, 800);
 
     return () => {
       clearTimeout(timer);
-      clearTimeout(featuredTimer);
       clearTimeout(gridTimer);
     };
   }, []);
 
-  const featuredTrack = {
-    id: 'featured',
-    title: "Silent Echoes",
-    description: "A contemplative piece exploring the spaces between sounds",
-    cover: "/music/featured-track.jpg",
-    audioUrl: "/music/silent-echoes.mp3"
-  };
-
   const otherTracks = [
     {
       id: 1,
-      title: "Urban Dreams",
-      description: "City rhythms and midnight thoughts",
-      cover: "/music/track-1.jpg",
+      title: "Aquarium",
+      cover: "/SongsAndCovers/Cover_Art_Aquarium.png",
       previewUrl: "/music/urban-dreams-preview.mp3",
       fullVersionAvailable: true,
       purchaseUrl: "#",
@@ -63,9 +44,8 @@ const Music = () => {
     },
     {
       id: 2,
-      title: "Morning Light",
-      description: "Gentle awakening and new beginnings",
-      cover: "/music/track-2.jpg",
+      title: "Say it Loud",
+      cover: "/SongsAndCovers/Cover_Art_Say it Loud.png",
       previewUrl: "/music/morning-light-preview.mp3",
       fullVersionAvailable: true,
       purchaseUrl: "#",
@@ -73,9 +53,8 @@ const Music = () => {
     },
     {
       id: 3,
-      title: "Fading Memories",
-      description: "Nostalgia and the passage of time",
-      cover: "/music/track-3.jpg",
+      title: "Element",
+      cover: "/SongsAndCovers/Cover Art_Element.png",
       previewUrl: "/music/fading-memories-preview.mp3",
       fullVersionAvailable: true,
       purchaseUrl: "#",
@@ -84,32 +63,32 @@ const Music = () => {
     {
       id: 4,
       title: "Electric Hearts",
-      description: "Digital romance and modern connections",
       cover: "/music/track-4.jpg",
       previewUrl: "/music/electric-hearts-preview.mp3",
-      fullVersionAvailable: true,
+      fullVersionAvailable: false,
       purchaseUrl: "#",
-      streamingUrl: "#"
+      streamingUrl: "#",
+      comingSoon: true
     },
     {
       id: 5,
       title: "Still Waters",
-      description: "Deep reflection and inner peace",
       cover: "/music/track-5.jpg",
       previewUrl: "/music/still-waters-preview.mp3",
-      fullVersionAvailable: true,
+      fullVersionAvailable: false,
       purchaseUrl: "#",
-      streamingUrl: "#"
+      streamingUrl: "#",
+      comingSoon: true
     },
     {
       id: 6,
       title: "Neon Nights",
-      description: "Urban exploration and discovery",
       cover: "/music/track-6.jpg",
       previewUrl: "/music/neon-nights-preview.mp3",
-      fullVersionAvailable: true,
+      fullVersionAvailable: false,
       purchaseUrl: "#",
-      streamingUrl: "#"
+      streamingUrl: "#",
+      comingSoon: true
     }
   ];
 
@@ -136,12 +115,10 @@ const Music = () => {
     }
   };
 
-  const isFeaturedPlaying = isPlaying && currentTrackId === 'featured';
-
   return (
     <div className="min-h-screen bg-off-white">
       {/* Hero Section - Matching Homepage Style */}
-      <section className="min-h-screen flex flex-col relative overflow-hidden">
+      <section >
         {/* Title Section */}
         <div className="relative z-10 w-full px-6 sm:px-8 lg:px-12 pt-20 sm:pt-32">
           <div 
@@ -151,12 +128,12 @@ const Music = () => {
             }`}
           >
             {/* Large centered title */}
-            <h1 className="font-serif text-7xl sm:text-8xl lg:text-9xl font-thin text-charcoal mb-12 leading-none tracking-tight transition-all duration-300 ease-out hover:text-accent/20">
+            <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-thin text-charcoal mb-8 leading-none tracking-tight transition-all duration-300 ease-out hover:text-accent/20">
               MUSIC
             </h1>
             
             {/* Subtitle */}
-            <p className="font-sans text-xl sm:text-2xl lg:text-3xl font-extralight text-charcoal/85 mb-12 leading-relaxed tracking-[0.05em] max-w-3xl mx-auto transition-all duration-300 ease-out hover:text-charcoal">
+            <p className="font-sans text-xl sm:text-2xl lg:text-3xl font-extralight text-charcoal/85 mb-8 leading-relaxed tracking-[0.05em] max-w-3xl mx-auto transition-all duration-300 ease-out hover:text-charcoal">
               Recorded, written, and performed across different phases.
             </p>
             
@@ -171,61 +148,8 @@ const Music = () => {
         </div>
       </section>
 
-      {/* Featured Track Section */}
-      <section className="py-16 sm:py-20">
-        <div className="container-content">
-          <div 
-            ref={featuredRef}
-            className={`max-w-4xl mx-auto transition-all duration-1000 ease-out ${
-              featuredVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
-            }`}
-          >
-            {/* Desktop: Horizontal layout | Mobile: Vertical stack */}
-            <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-16">
-              {/* Cover Image - Mobile: Full width | Desktop: Constrained */}
-              <div className="w-full lg:w-auto lg:flex-1 lg:max-w-md">
-                <div className="relative aspect-square max-w-md mx-auto lg:mx-0 overflow-hidden rounded-lg shadow-lg group transition-all duration-300 ease-out hover:shadow-xl">
-                  <img 
-                    src={featuredTrack.cover}
-                    alt={featuredTrack.title}
-                    className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-charcoal/0 group-hover:bg-charcoal/20 transition-all duration-300 ease-out"></div>
-                </div>
-              </div>
-
-              {/* Track Info and Custom Audio Player */}
-              <div className="flex-1 text-center lg:text-left w-full lg:w-auto transition-all duration-300 ease-out">
-                <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl xl:text-5xl font-light text-charcoal mb-4 leading-tight transition-all duration-300 ease-out hover:text-accent/30">
-                  {featuredTrack.title}
-                </h2>
-                <p className="font-sans text-base sm:text-lg text-medium-gray mb-6 sm:mb-8 leading-relaxed transition-all duration-300 ease-out hover:text-charcoal/80">
-                  {featuredTrack.description}
-                </p>
-
-                {/* Custom Audio Player */}
-                <AudioPlayer 
-                  track={featuredTrack}
-                  isPlaying={isFeaturedPlaying}
-                  onPlay={() => handleTrackPlay('featured')}
-                  onPause={handleTrackPause}
-                  onTrackChange={handleTrackChange}
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Divider */}
-      <div className="container-content">
-        <div className="max-w-4xl mx-auto">
-          <div className="h-px bg-charcoal/10"></div>
-        </div>
-      </div>
-
-      {/* Other Tracks Section */}
-      <section className="py-16 sm:py-20">
+      {/* Sample Tracks Section */}
+      <section className="py-2 sm:py-4">
         <div className="container-content">
           <div 
             ref={gridRef}
@@ -273,47 +197,55 @@ const Music = () => {
                         <h3 className="font-serif text-lg sm:text-xl lg:text-2xl font-light text-charcoal mb-2 leading-tight transition-all duration-300 ease-out group-hover:text-accent/90">
                           {track.title}
                         </h3>
-                        <p className="font-sans text-sm text-medium-gray leading-relaxed mb-4 transition-all duration-300 ease-out group-hover:text-charcoal/70">
-                          {track.description}
-                        </p>
                         
-                        {/* Preview Player Component */}
-                        <PreviewPlayer 
-                          track={track}
-                          isPlaying={isTrackPlaying}
-                          onPlay={() => handleTrackPlay(track.id)}
-                          onPause={handleTrackPause}
-                          onTrackChange={handleTrackChange}
-                        />
-
-                        {/* Full Version Available */}
-                        {track.fullVersionAvailable && (
-                          <div className="mt-4 pt-4 border-t border-pale-gray/30">
-                            <p className="font-sans text-xs text-medium-gray/60 leading-relaxed transition-all duration-300 ease-out group-hover:text-medium-gray/80">
-                              Full version available
-                            </p>
-                            {/* Future: Purchase and streaming links can be added here */}
-                            <div className="mt-2 space-y-1">
-                              {/* Purchase link placeholder */}
-                              {track.purchaseUrl && track.purchaseUrl !== "#" && (
-                                <a 
-                                  href={track.purchaseUrl}
-                                  className="inline-block text-xs text-accent/70 hover:text-accent transition-colors duration-300 ease-out"
-                                >
-                                  Purchase →
-                                </a>
-                              )}
-                              {/* Streaming link placeholder */}
-                              {track.streamingUrl && track.streamingUrl !== "#" && (
-                                <a 
-                                  href={track.streamingUrl}
-                                  className="inline-block text-xs text-accent/70 hover:text-accent transition-colors duration-300 ease-out ml-3"
-                                >
-                                  Stream →
-                                </a>
-                              )}
+                        {/* Coming Soon Badge or Preview Player */}
+                        {track.comingSoon ? (
+                          <div className="mt-4">
+                            <div className="inline-flex items-center px-3 py-1 bg-medium-gray/20 text-medium-gray/60 text-xs font-medium rounded-full">
+                              Coming Soon
                             </div>
                           </div>
+                        ) : (
+                          <>
+                            {/* Preview Player Component */}
+                            <PreviewPlayer 
+                              track={track}
+                              isPlaying={isTrackPlaying}
+                              onPlay={() => handleTrackPlay(track.id)}
+                              onPause={handleTrackPause}
+                              onTrackChange={handleTrackChange}
+                            />
+
+                            {/* Full Version Available */}
+                            {track.fullVersionAvailable && (
+                              <div className="mt-4 pt-4 border-t border-pale-gray/30">
+                                <p className="font-sans text-xs text-medium-gray/60 leading-relaxed transition-all duration-300 ease-out group-hover:text-medium-gray/80">
+                                  Full version available
+                                </p>
+                                {/* Future: Purchase and streaming links can be added here */}
+                                <div className="mt-2 space-y-1">
+                                  {/* Purchase link placeholder */}
+                                  {track.purchaseUrl && track.purchaseUrl !== "#" && (
+                                    <a 
+                                      href={track.purchaseUrl}
+                                      className="inline-block text-xs text-accent/70 hover:text-accent transition-colors duration-300 ease-out"
+                                    >
+                                      Purchase →
+                                    </a>
+                                  )}
+                                  {/* Streaming link placeholder */}
+                                  {track.streamingUrl && track.streamingUrl !== "#" && (
+                                    <a 
+                                      href={track.streamingUrl}
+                                      className="inline-block text-xs text-accent/70 hover:text-accent transition-colors duration-300 ease-out ml-3"
+                                    >
+                                      Stream →
+                                    </a>
+                                  )}
+                                </div>
+                              </div>
+                            )}
+                          </>
                         )}
                       </div>
                     </div>
