@@ -10,6 +10,11 @@ const Music = () => {
   const [heroVisible, setHeroVisible] = useState(false);
   const [gridVisible, setGridVisible] = useState(false);
 
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  }, []);
+
   useEffect(() => {
     const timer = setTimeout(() => {
       if (musicRef.current) {
