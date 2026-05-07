@@ -38,7 +38,11 @@ const Header = () => {
             <Link to="/notes" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
               Notes
             </Link>
-            <Link to="/about" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
+            <Link 
+              to="/about" 
+              className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300"
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            >
               About
             </Link>
             <Link to="/contact" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">

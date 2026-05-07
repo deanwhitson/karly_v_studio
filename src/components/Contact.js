@@ -76,10 +76,6 @@ const Contact = () => {
           </div>
           
           <div className="mt-16 p-8 bg-off-white rounded-lg">
-            <p className="text-sm text-medium-gray italic">
-              "Design is not just what it looks like and feels like. Design is how it works."
-            </p>
-            <p className="text-sm text-charcoal mt-2">— Steve Jobs</p>
           </div>
         </div>
       </div>
