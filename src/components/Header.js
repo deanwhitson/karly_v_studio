@@ -4,6 +4,14 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  };
+
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
@@ -26,26 +34,26 @@ const Header = () => {
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
+            <Link to="/" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
               Home
             </Link>
-            <Link to="/essays" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
+            <Link to="/essays" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300" onClick={scrollToTop}>
               Essays
             </Link>
-            <Link to="/music" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
+            <Link to="/music" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300" onClick={scrollToTop}>
               Music
             </Link>
-            <Link to="/notes" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
+            <Link to="/notes" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300" onClick={scrollToTop}>
               Notes
             </Link>
             <Link 
               to="/about" 
               className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300"
-              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              onClick={scrollToTop}
             >
               About
             </Link>
-            <Link to="/contact" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300">
+            <Link to="/contact" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300" onClick={scrollToTop}>
               Contact
             </Link>
           </div>
