@@ -45,7 +45,7 @@ const Hero = () => {
       <div className="flex-1 relative">
         <div className="absolute inset-0 bg-gradient-to-br from-charcoal/30 via-charcoal/15 to-charcoal/50"></div>
         <img 
-          src="/hero-image.png" 
+          src="/hero-image2.jpg" 
           alt="Karly V Studio" 
           className="absolute inset-0 w-full h-full object-cover"
         />

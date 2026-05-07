@@ -32,7 +32,7 @@ const Footer = () => {
           
           <div className="pt-8 border-t border-charcoal/50">
             <p className="text-sm text-light-gray">
-              © 2024 Karly V Studio. All rights reserved.
+              © 2026 Karly V Studio. All rights reserved.
             </p>
           </div>
         </div>

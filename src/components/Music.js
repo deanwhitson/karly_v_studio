@@ -268,7 +268,7 @@ const Music = () => {
           <div className="text-center">
             <p className="font-serif text-2xl font-light mb-4">Karly V Studio</p>
             <p className="font-sans text-sm text-off-white/70">
-              © 2024 Karly V Studio. All rights reserved.
+              © 2026 Karly V Studio. All rights reserved.
             </p>
           </div>
         </div>
