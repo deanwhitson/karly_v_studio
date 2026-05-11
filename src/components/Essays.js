@@ -35,22 +35,22 @@ const Essays = () => {
       id: 1,
       title: "Authentucaly 40+",
       description: "On turning 40 in a youth obsessed world",
-      image: "/Essay1_Coverpng.png",
-      purchaseUrl: "https://www.amazon.com/dp/B0GQXTD12C"
+      image: "/SA1 cover art.jpg",
+      purchaseUrl: "https://www.amazon.com/AUTHENTICALLY-40-Turning-Forty-Youth-Obsessed-ebook/dp/B0GQXTD12C?ref_=saga_dp_bnx_dsk_dp&qid=1778196887&sr=1-1"
     },
     {
       id: 2,
-      title: "Coming Soon",
-      description: "New essay exploring the depths of human experience",
-      image: null,
-      purchaseUrl: "#"
+      title: "The Body at 40: It keeps the score of life",
+      description: "NThe Body at 40: It keeps the score of life",
+      image: "/SA2 cover art.jpg",
+      purchaseUrl: "https://www.amazon.com/Authentically-40-Body-Keeps-Score-ebook/dp/B0GX2NGTDQ?ref_=saga_dp_bnx_dsk_dp&qid=1778196887&sr=1-1"
     },
     {
       id: 3,
-      title: "Coming Soon",
-      description: "A thoughtful reflection on life's journey",
-      image: null,
-      purchaseUrl: "#"
+      title: "Emotional Stability at 40: The Practice of returning",
+      description: "Emotional Stability at 40: The Practice of returning",
+      image: "/Essay3 cover art.jpg",
+      purchaseUrl: "https://www.amazon.com/Authentically-40-Emotional-Stability-Returning-ebook/dp/B0GX2WRHTJ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.vhWn0fkFYerfcV5B9GsJ7AGA9Hx9uXHkCeQdiTOGY3Xh46EhBlb8N6f3bW7Yb5V1x3yEq770VQf0ggjzRPGhJgF9erFHKSrHUW7tfNtd9GX-9nb3YyuDlmkyPgz0ndZ49Ox3P8dcM8nYF_Y0kuQo9Heif5oeL_WGG3FAdyJGBo19Qhoqr9RpVNx9svAsQaN7ccMnIFK-akW3TzesXAbOJYSD50l_Yb-51iFckVh2PFT2j36sIdtYkZ3wXpfnZoH_IWxTLAgR-fdaurA6qIsZ5TYsUExRG8cBrnHLtwsG9O0.bKdFol_CiBZRWiPH8phw3DkIE0fXNBEoK_qufA5s-6s&dib_tag=se&keywords=karly+v&qid=1778196887&s=amazon-devices&sr=1-1"
     },
     {
       id: 4,
