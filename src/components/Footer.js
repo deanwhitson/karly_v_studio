@@ -9,8 +9,7 @@ const Footer = () => {
             Karly V Studio
           </h2>
           <p className="text-light-gray mb-8 leading-relaxed">
-            Creating thoughtful, editorial design work that stands at the intersection of 
-            art and communication. Based in Sandton, working globally.
+            Creating thoughtful, editorial design work that stands at the intersection of art and communication.
           </p>
           
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-8 mb-12">
