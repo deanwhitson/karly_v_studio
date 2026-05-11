@@ -19,7 +19,7 @@ const EssayCard = ({
     <article className={`group cursor-pointer w-full ${className}`}>
       <div className="overflow-hidden rounded-2xl bg-off-white border border-pale-gray/20 shadow-sm hover:shadow-md transition-all duration-300 ease-out hover:-translate-y-1 h-full">
         {/* Poster Image */}
-        <div className="aspect-[4/3] overflow-hidden bg-pale-gray/30">
+        <div className="aspect-[4/3] overflow-hidden bg-pale-gray/30 object-cover">
           {image ? (
             <img 
               src={image} 
