@@ -48,22 +48,22 @@ const EssayCard = ({
           )}
           
           {/* View Summary Button */}
-          <div className="pt-2 sm:pt-4">
+          <div className="pt-1 sm:pt-2">
             <button
               onClick={() => setShowSummary(true)}
-              className="inline-flex items-center justify-center space-x-2 px-4 py-2 border border-medium-gray/30 text-sm font-light text-medium-gray hover:bg-charcoal hover:text-off-white transition-all duration-300 ease-out"
+              className="inline-flex items-center justify-center space-x-2 px-4 py-2 border border-medium-gray/30 text-sm font-light text-medium-gray hover:bg-charcoal hover:text-off-white transition-all duration-300 ease-out min-w-[120px]"
             >
               <span>View Summary</span>
             </button>
           </div>
 
           {/* Purchase Button */}
-          <div className="pt-2 sm:pt-4">
+          <div className="pt-1 sm:pt-2">
             <a 
               href={purchaseUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center space-x-2 px-4 py-2 border border-medium-gray/30 text-sm font-light text-medium-gray hover:bg-charcoal hover:text-off-white transition-all duration-300 ease-out group/purchase"
+              className="inline-flex items-center justify-center space-x-2 px-4 py-2 border border-medium-gray/30 text-sm font-light text-medium-gray hover:bg-charcoal hover:text-off-white transition-all duration-300 ease-out group/purchase min-w-[120px]"
               onClick={(e) => e.stopPropagation()}
             >
               <span>Purchase Essay</span>
