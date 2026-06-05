@@ -23,9 +23,6 @@ const Footer = () => {
               <a href="#" className="text-light-gray hover:text-off-white transition-colors duration-300">
                 LinkedIn
               </a>
-              <a href="#" className="text-light-gray hover:text-off-white transition-colors duration-300">
-                Behance
-              </a>
             </div>
           </div>
           
