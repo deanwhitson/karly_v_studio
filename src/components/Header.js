@@ -81,7 +81,7 @@ const Header = () => {
         </div>
 
         {isMenuOpen && (
-          <div className="md:hidden mt-4 flex flex-col space-y-4 pb-2">
+          <div className="md:hidden mt-4 flex flex-col items-end text-right space-y-4 bg-pale-gray rounded-md p-4">
             <Link to="/" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300" onClick={handleNavClick}>
               Home
             </Link>
