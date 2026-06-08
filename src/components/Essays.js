@@ -41,7 +41,7 @@ const Essays = () => {
 Written from personal experience rather than instruction, The Beginning, Not The End examines ageing in a youth-obsessed culture, the pressure to remain relevant, and the quiet moment where survival slowly turns into authorship.
 
 This is not an essay about “having it all figured out.” It is about waking up inside your own life and realizing there is still time to become fully yourself.`,
-      purchaseUrl: "https://www.amazon.com/AUTHENTICALLY-40-Turning-Forty-Youth-Obsessed-ebook/dp/B0GQXTD12C?ref_=saga_dp_bnx_dsk_dp&qid=1778196887&sr=1-1"
+      purchaseUrl: "https://www.amazon.com/dp/B0GQXTD12C"
     },
     {
       id: 2,
@@ -55,7 +55,7 @@ In this essay, Karly V reflects on physical change, exhaustion, injury, recovery
 The Body at 40 is not about weight loss, beauty standards, or transformation culture. It is about learning to listen before the body is forced to scream.
 
 An honest reflection on maintenance, limitation, self-awareness, and the difficult shift from self-judgment toward partnership with the body that carried you here.`,
-      purchaseUrl: "https://www.amazon.com/Authentically-40-Body-Keeps-Score-ebook/dp/B0GX2NGTDQ?ref_=saga_dp_bnx_dsk_dp&qid=1778196887&sr=1-1"
+      purchaseUrl: "https://www.amazon.com/dp/B0GX2NGTDQ"
     },
     {
       id: 3,
@@ -69,7 +69,7 @@ In this deeply personal essay, Karly V explores emotional spirals, self-awarenes
 Blending lived experience with reflection, The Practice of Returning examines what happens when emotional maturity becomes less about perfection and more about recovery.
 
 Not becoming someone who never struggles. Becoming someone who no longer abandons themselves inside the struggle.`,
-      purchaseUrl: "https://www.amazon.com/Authentically-40-Emotional-Stability-Returning-ebook/dp/B0GX2WRHTJ/ref=sr_1_1?dib=eyJ2IjoiMSJ9.vhWn0fkFYerfcV5B9GsJ7AGA9Hx9uXHkCeQdiTOGY3Xh46EhBlb8N6f3bW7Yb5V1x3yEq770VQf0ggjzRPGhJgF9erFHKSrHUW7tfNtd9GX-9nb3YyuDlmkyPgz0ndZ49Ox3P8dcM8nYF_Y0kuQo9Heif5oeL_WGG3FAdyJGBo19Qhoqr9RpVNx9svAsQaN7ccMnIFK-akW3TzesXAbOJYSD50l_Yb-51iFckVh2PFT2j36sIdtYkZ3wXpfnZoH_IWxTLAgR-fdaurA6qIsZ5TYsUExRG8cBrnHLtwsG9O0.bKdFol_CiBZRWiPH8phw3DkIE0fXNBEoK_qufA5s-6s&dib_tag=se&keywords=karly+v&qid=1778196887&s=amazon-devices&sr=1-1"
+      purchaseUrl: "https://www.amazon.com/dp/B0GX2WRHTJ"
     },
     {
       id: 4,
@@ -101,14 +101,31 @@ In this essay, Karly V explores the tension between responsibility and longing �
 Desire at 40 examines the discomfort many people feel around wanting more once adulthood is supposed to have “settled” them.
 
 Not a celebration of recklessness. An exploration of what happens when desire stops being something to suppress — and becomes something to understand honestly.`,
-      purchaseUrl: "#"
+      purchaseUrl: "https://www.amazon.com/dp/B0H1SSSDP2"
     },
     {
       id: 6,
       title: "Authentically 40+ ESSAY 6",
       description: "Midlife: Where Becoming Happens",
       image: "/SA6 cover art.jpg",
-      purchaseUrl: "#"
+      summary: `Many of us imagine that becoming is a destination.
+
+A future version of ourselves who is more confident, more disciplined, more certain, more complete.
+
+But what if becoming was never about arriving?
+
+In this deeply personal reflection, Karly V explores creativity, performance, self-doubt, identity, people-pleasing, artistic expression, and the exhausting habit of monitoring ourselves instead of inhabiting our lives.
+
+Drawing on experiences as a musician, writer, and performer, she examines the subtle ways we interfere with our own authenticity—mistaking self-protection for professionalism, caution for control, and refinement for growth.
+
+At its heart, In The Middle: Where Becoming Happens is an exploration of what remains when the walls begin to fall away.
+
+Not becoming someone new.
+
+Simply becoming less divided against yourself.
+
+A thoughtful essay about creativity, self-consciousness, midlife, and the quiet process of removing what stands between you and the life you are trying to live.`,
+      purchaseUrl: "https://www.amazon.com/dp/B0H36H3RS3"
     },
     {
       id: 7,
@@ -122,7 +139,7 @@ In this essay, Karly V examines authority, influence, identity formation, AI, so
 Blending personal reflection with broader cultural observation, Who Gets the Final Say? explores the growing tension between external guidance and internal discernment.
 
 Not an argument against technology. A reflection on sovereignty, critical thinking, and the responsibility of remaining psychologically awake inside systems designed to shape attention and behaviour.`,
-      purchaseUrl: "#"
+      purchaseUrl: "https://www.amazon.com/dp/B0H37Z57C3"
     },
     {
       id: 8,
@@ -136,7 +153,7 @@ In this essay, Karly V reflects on legacy, parenting, creativity, mortality, con
 Moving between personal memory and broader reflection, Trees We Won’t Sit Under explores what it means to invest effort, love, discipline, and care into things whose full outcome may never be witnessed directly.
 
 Not an essay about achieving immortality. An essay about participation — and the quiet dignity of planting anyway.`,
-      purchaseUrl: "#"
+      purchaseUrl: "https://www.amazon.com/dp/B0H3FDKK88"
     }
   ];
 
