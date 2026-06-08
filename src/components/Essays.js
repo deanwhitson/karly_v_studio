@@ -54,23 +54,37 @@ const Essays = () => {
     },
     {
       id: 4,
-      title: "Coming Soon",
-      description: "Exploring the nuances of personal growth",
-      image: null,
+      title: "Authentically 40+ ESSAY 4",
+      description: "Connection at 40: Depth Over Breadth",
+      image: "/SA4 cover art.jpg",
       purchaseUrl: "#"
     },
     {
       id: 5,
-      title: "Coming Soon",
-      description: "A meditation on the art of being present",
-      image: null,
+      title: "Authentically 40+ ESSAY 5",
+      description: "Desire at 40: What I'm Willing to Pay",
+      image: "/SA5 cover art.jpg",
       purchaseUrl: "#"
     },
     {
       id: 6,
-      title: "Coming Soon",
-      description: "Finding meaning in the everyday moments",
-      image: null,
+      title: "Authentically 40+ ESSAY 6",
+      description: "Midlife: Where Becoming Happens",
+      image: "/SA6 cover art.jpg",
+      purchaseUrl: "#"
+    },
+    {
+      id: 7,
+      title: "Authentically 40+ ESSAY 7",
+      description: "Authority at 40: Who Gets the Final Say?",
+      image: "/SA7 cover art.jpg",
+      purchaseUrl: "#"
+    },
+    {
+      id: 8,
+      title: "Authentically 40+ ESSAY 8",
+      description: "Planting Trees We Won't Sit Under",
+      image: "/SA8 cover art.jpg",
       purchaseUrl: "#"
     }
   ];
