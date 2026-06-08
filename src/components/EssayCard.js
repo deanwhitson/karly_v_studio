@@ -4,6 +4,7 @@ const EssayCard = ({
   image, 
   title, 
   description, 
+  summary,
   purchaseUrl, 
   className = "" 
 }) => {
@@ -96,9 +97,19 @@ const EssayCard = ({
             <h4 className="font-serif text-lg font-light text-charcoal mb-3">
               {title}
             </h4>
-            <p className="text-medium-gray leading-relaxed font-light">
-              {getFirstThreeSentences(description)}
-            </p>
+            {summary ? (
+              <div className="space-y-4">
+                {summary.split('\n\n').map((paragraph, index) => (
+                  <p key={index} className="text-medium-gray leading-relaxed font-light">
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
+            ) : (
+              <p className="text-medium-gray leading-relaxed font-light">
+                {getFirstThreeSentences(description)}
+              </p>
+            )}
             <button
               onClick={() => setShowSummary(false)}
               className="mt-4 px-4 py-2 bg-charcoal text-off-white hover:bg-medium-gray transition-colors duration-300 ease-out"
