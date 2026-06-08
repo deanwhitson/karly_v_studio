@@ -108,6 +108,23 @@ Not a celebration of recklessness. An exploration of what happens when desire 
       title: "Authentically 40+ ESSAY 6",
       description: "Midlife: Where Becoming Happens",
       image: "/SA6 cover art.jpg",
+      summary: `Many of us imagine that becoming is a destination.
+
+A future version of ourselves who is more confident, more disciplined, more certain, more complete.
+
+But what if becoming was never about arriving?
+
+In this deeply personal reflection, Karly V explores creativity, performance, self-doubt, identity, people-pleasing, artistic expression, and the exhausting habit of monitoring ourselves instead of inhabiting our lives.
+
+Drawing on experiences as a musician, writer, and performer, she examines the subtle ways we interfere with our own authenticity—mistaking self-protection for professionalism, caution for control, and refinement for growth.
+
+At its heart, In The Middle: Where Becoming Happens is an exploration of what remains when the walls begin to fall away.
+
+Not becoming someone new.
+
+Simply becoming less divided against yourself.
+
+A thoughtful essay about creativity, self-consciousness, midlife, and the quiet process of removing what stands between you and the life you are trying to live.`,
       purchaseUrl: "#"
     },
     {
