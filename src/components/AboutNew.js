@@ -47,49 +47,42 @@ const About = () => {
             </div>
             
             <div className="space-y-8">
-              <h3 className="font-serif text-xl font-light text-charcoal mb-4">Creating like this isn't optional for me. If things stay unstructured — in thought, in emotion, in memory — they build. Writing, music, and visual work are how I process them properly.</h3>
               <p className="text-charcoal font-light tracking-[0.01em]">
                 Creating like this isn't optional for me. If things stay unstructured — in thought, in emotion, in memory — they build. Writing, music, and visual work are how I process them properly.
               </p>
             </div>
             
             <div className="space-y-8">
-              <h3 className="font-serif text-xl font-light text-charcoal mb-4">I don't create to express everything as it comes. I create to shape it — to take something unclear or unresolved and work it into a form that holds.</h3>
               <p className="text-charcoal font-light tracking-[0.01em]">
                 I don't create to express everything as it comes. I create to shape it — to take something unclear or unresolved and work it into a form that holds.
               </p>
             </div>
             
             <div className="space-y-8">
-              <h3 className="font-serif text-xl font-light text-charcoal mb-4">When something is structured, it becomes easier to understand.</h3>
               <p className="text-charcoal font-light tracking-[0.01em]">
                 When something is structured, it becomes easier to understand.
               </p>
             </div>
             
             <div className="space-y-8">
-              <h3 className="font-serif text-xl font-light text-charcoal mb-4">When it's understood, it becomes easier to live with.</h3>
               <p className="text-charcoal font-light tracking-[0.01em]">
                 When it's understood, it becomes easier to live with.
               </p>
             </div>
             
             <div className="space-y-8">
-              <h3 className="font-serif text-xl font-light text-charcoal mb-4">That process — from fragmentation to form — is where work happens. This isn't a self-help space, and it's not meant to be objective.</h3>
               <p className="text-charcoal font-light tracking-[0.01em]">
                 That process — from fragmentation to form — is where work happens. This isn't a self-help space, and it's not meant to be objective.
               </p>
             </div>
             
             <div className="space-y-8">
-              <h3 className="font-serif text-xl font-light text-charcoal mb-4">Everything here is written from my perspective — shaped by what I've experienced, what I've questioned, and what I've been able to understand with the information available to me.</h3>
               <p className="text-charcoal font-light tracking-[0.01em]">
                 Everything here is written from my perspective — shaped by what I've experienced, what I've questioned, and what I've been able to understand with the information available to me.
               </p>
             </div>
             
             <div className="space-y-8">
-              <h3 className="font-serif text-xl font-light text-charcoal mb-4">The aim isn't to provide answers. It's to explore things properly — and, in doing that, to make them feel a little more grounded.</h3>
               <p className="text-charcoal font-light tracking-[0.01em]">
                 The aim isn't to provide answers. It's to explore things properly — and, in doing that, to make them feel a little more grounded.
               </p>
