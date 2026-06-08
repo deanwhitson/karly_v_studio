@@ -106,7 +106,7 @@ Not a celebration of recklessness. An exploration of what happens when desire 
     {
       id: 6,
       title: "Authentically 40+ ESSAY 6",
-      description: "Midlife: Where Becoming Happens",
+      description: "In The Middle: Where Becoming Happens",
       image: "/SA6 cover art.jpg",
       summary: `Many of us imagine that becoming is a destination.
 
