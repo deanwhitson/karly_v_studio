@@ -47,37 +47,6 @@ const Contact = () => {
             potential opportunities, I'd love to hear from you.
           </p>
           
-          <div className="space-y-8">
-            <div>
-              <h3 className="font-serif text-xl font-medium text-charcoal mb-4">
-                New Projects
-              </h3>
-              <a 
-                href="mailto:karlyvmusic@gmail.com" 
-                className="text-lg text-accent hover:text-charcoal transition-colors duration-300"
-              >
-                karlyvmusic@gmail.com
-              </a>
-            </div>
-            
-            <div className="pt-8 border-t border-pale-gray">
-              <p className="text-medium-gray mb-4">
-                You can also find me on:
-              </p>
-              <div className="flex justify-center space-x-8">
-                <a href="https://www.instagram.com/karlyvthemusic/" className="text-medium-gray hover:text-charcoal transition-colors duration-300">
-                  Instagram
-                </a>
-                <a href="https://www.linkedin.com/in/karly-v-a9424451/" className="text-medium-gray hover:text-charcoal transition-colors duration-300">
-                  LinkedIn
-                </a>
-                <a href="https://www.facebook.com/karlyvofficial" className="text-medium-gray hover:text-charcoal transition-colors duration-300">
-                  Facebook
-                </a>
-              </div>
-            </div>
-          </div>
-          
           <div className="mt-16 p-8 bg-off-white rounded-lg">
           </div>
         </div>
