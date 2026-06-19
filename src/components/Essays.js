@@ -85,7 +85,7 @@ In Connection at 40, Karly V reflects on what remains after performance, people-
 Not an argument for isolation — but an exploration of what happens when depth becomes more important than approval, quantity, or proximity.
 
 A reflection on connection, disconnection, and the difficult work of learning to relate honestly.`,
-      purchaseUrl: "#"
+      purchaseUrl: "https://www.amazon.com/Authenthically-40-Essay-Connection-Authentically-ebook/dp/B0GZ2ZYM58?ref_=saga_dp_bnx_dsk_dp&qid=1781911398&sr=8-1"
     },
     {
       id: 5,
