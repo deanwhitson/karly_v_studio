@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -10,6 +11,11 @@ const Header = () => {
       left: 0,
       behavior: 'smooth'
     });
+  };
+
+  const handleNavClick = () => {
+    setIsMenuOpen(false);
+    scrollToTop();
   };
 
   useEffect(() => {
@@ -58,12 +64,44 @@ const Header = () => {
             </Link>
           </div>
 
-          <button className="md:hidden p-2 rounded-md hover:bg-pale-gray transition-colors duration-300">
+          <button
+            className="md:hidden p-2 rounded-md hover:bg-pale-gray transition-colors duration-300"
+            onClick={() => setIsMenuOpen((open) => !open)}
+            aria-label="Toggle navigation menu"
+            aria-expanded={isMenuOpen}
+          >
             <svg className="w-5 h-5 text-charcoal" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 6h16M4 12h16M4 18h16" />
+              {isMenuOpen ? (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
+              ) : (
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 6h16M4 12h16M4 18h16" />
+              )}
             </svg>
           </button>
         </div>
+
+        {isMenuOpen && (
+          <div className="md:hidden mt-4 flex flex-col items-end text-right space-y-4 bg-pale-gray rounded-md p-4">
+            <Link to="/" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300" onClick={handleNavClick}>
+              Home
+            </Link>
+            <Link to="/essays" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300" onClick={handleNavClick}>
+              Essays
+            </Link>
+            <Link to="/music" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300" onClick={handleNavClick}>
+              Music
+            </Link>
+            <Link to="/notes" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300" onClick={handleNavClick}>
+              Notes
+            </Link>
+            <Link to="/about" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300" onClick={handleNavClick}>
+              About
+            </Link>
+            <Link to="/contact" className="text-sm font-medium text-medium-gray hover:text-charcoal transition-colors duration-300" onClick={handleNavClick}>
+              Contact
+            </Link>
+          </div>
+        )}
       </nav>
     </header>
   );

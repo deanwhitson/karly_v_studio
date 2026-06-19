@@ -6,7 +6,6 @@ import EditorialIntro from './components/EditorialIntro';
 import ContentBlocks from './components/ContentBlocks';
 import About from './components/AboutNew';
 import Contact from './components/Contact';
-import ClosingSection from './components/ClosingSection';
 import Footer from './components/Footer';
 import Essays from './components/Essays';
 import Notes from './components/Notes';
@@ -30,7 +29,6 @@ function HomePage() {
       <ContentBlocks />
       <About />
       <Contact />
-      <ClosingSection />
     </>
   );
 }
