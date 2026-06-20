@@ -14,7 +14,7 @@ const Footer = () => {
               karlyvmusic@gmail.com
             </a>
             <div className="flex items-center space-x-6">
-              <a href="#" className="text-light-gray hover:text-off-white transition-colors duration-300">
+              <a href="https://www.instagram.com/karlyvthemusic/" target="_blank" rel="noopener noreferrer" className="text-light-gray hover:text-off-white transition-colors duration-300">
                 Instagram
               </a>
               <a href="https://www.facebook.com/search/top?q=karly%20v" target="_blank" rel="noopener noreferrer" className="text-light-gray hover:text-off-white transition-colors duration-300">
