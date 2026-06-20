@@ -17,6 +17,9 @@ const Footer = () => {
               <a href="#" className="text-light-gray hover:text-off-white transition-colors duration-300">
                 Instagram
               </a>
+              <a href="https://www.facebook.com/search/top?q=karly%20v" target="_blank" rel="noopener noreferrer" className="text-light-gray hover:text-off-white transition-colors duration-300">
+                Facebook
+              </a>
               <a href="https://www.youtube.com/@karlyv7900" target="_blank" rel="noopener noreferrer" className="text-light-gray hover:text-off-white transition-colors duration-300">
                 YouTube
               </a>
