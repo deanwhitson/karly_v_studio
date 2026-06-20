@@ -1425,16 +1425,6 @@ But this part is.
 
 I will stop postponing the work that is actually mine.`
     },
-    {
-      id: 1,
-      title: "Note Idea",
-      date: null,
-      content: `The “trauma”  and assumptions carried from one relationship to the next.
-
-Morne’s - Dean
-
-Even after 5 years, the trauma response/conclusions still come out during times of high stress.`
-    },
   ];
 
   const handleNoteClick = (note) => {
