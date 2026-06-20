@@ -42,7 +42,7 @@ const Music = () => {
       id: 1,
       title: "Aquarium",
       cover: "/SongsAndCovers/Cover_Art_Aquarium.png",
-      previewUrl: "/music/urban-dreams-preview.mp3",
+      previewUrl: "/Aquarium_TEASER.mp3",
       fullVersionAvailable: true,
       purchaseUrl: "#",
       streamingUrl: "#"
