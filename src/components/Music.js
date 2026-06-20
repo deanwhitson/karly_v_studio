@@ -251,18 +251,6 @@ const Music = () => {
           </div>
         </div>
       </section>
-
-      {/* Footer (reused from homepage) */}
-      <footer className="bg-charcoal text-off-white py-12">
-        <div className="container-content">
-          <div className="text-center">
-            <p className="font-serif text-2xl font-light mb-4">Karly V Studio</p>
-            <p className="font-sans text-sm text-off-white/70">
-              © 2026 Karly V Studio. All rights reserved.
-            </p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 };
