@@ -44,7 +44,7 @@ const Music = () => {
       cover: "/SongsAndCovers/Cover_Art_Aquarium.png",
       previewUrl: "/Aquarium_TEASER.mp3",
       fullVersionAvailable: true,
-      purchaseUrl: "#",
+      purchaseUrl: "https://distrokid.com/hyperfollow/karlyv/aquarium",
       streamingUrl: "#"
     },
     {
@@ -53,7 +53,7 @@ const Music = () => {
       cover: "/SongsAndCovers/Cover_Art_Say it Loud.png",
       previewUrl: "/SongsAndCovers/Say%20It%20Loud%20-%20Website%20Sample.mp3",
       fullVersionAvailable: true,
-      purchaseUrl: "#",
+      purchaseUrl: "https://distrokid.com/hyperfollow/karlyv/say-it-loud",
       streamingUrl: "#"
     },
     {
@@ -224,30 +224,20 @@ const Music = () => {
                             {/* Full Version Available */}
                             {track.fullVersionAvailable && (
                               <div className="mt-4 pt-4 border-t border-pale-gray/30">
-                                <p className="font-sans text-xs text-medium-gray/60 leading-relaxed transition-all duration-300 ease-out group-hover:text-medium-gray/80">
-                                  Full version available
-                                </p>
-                                {/* Future: Purchase and streaming links can be added here */}
-                                <div className="mt-2 space-y-1">
-                                  {/* Purchase link placeholder */}
-                                  {track.purchaseUrl && track.purchaseUrl !== "#" && (
-                                    <a 
-                                      href={track.purchaseUrl}
-                                      className="inline-block text-xs text-accent/70 hover:text-accent transition-colors duration-300 ease-out"
-                                    >
-                                      Purchase →
-                                    </a>
-                                  )}
-                                  {/* Streaming link placeholder */}
-                                  {track.streamingUrl && track.streamingUrl !== "#" && (
-                                    <a 
-                                      href={track.streamingUrl}
-                                      className="inline-block text-xs text-accent/70 hover:text-accent transition-colors duration-300 ease-out ml-3"
-                                    >
-                                      Stream →
-                                    </a>
-                                  )}
-                                </div>
+                                {track.purchaseUrl && track.purchaseUrl !== "#" ? (
+                                  <a
+                                    href={track.purchaseUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center justify-center px-4 py-2 bg-charcoal text-off-white text-xs font-light rounded-full hover:bg-accent transition-all duration-300 ease-out"
+                                  >
+                                    Full version available
+                                  </a>
+                                ) : (
+                                  <p className="font-sans text-xs text-medium-gray/60 leading-relaxed transition-all duration-300 ease-out group-hover:text-medium-gray/80">
+                                    Full version available
+                                  </p>
+                                )}
                               </div>
                             )}
                           </>
