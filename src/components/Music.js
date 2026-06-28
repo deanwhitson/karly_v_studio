@@ -134,7 +134,7 @@ const Music = () => {
           >
             {/* Large centered title */}
             <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-thin text-charcoal mb-8 leading-none tracking-tight transition-all duration-300 ease-out hover:text-accent/20">
-              MUSIC
+              Music
             </h1>
             
             {/* Subtitle */}

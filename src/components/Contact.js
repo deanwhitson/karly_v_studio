@@ -34,6 +34,18 @@ const Contact = () => {
           ref={sectionRef}
           className="animate-on-scroll max-w-2xl mx-auto text-center"
         >
+          <div className="mb-12 space-y-6">
+            <p className="text-lg text-medium-gray leading-relaxed">
+              I'd love to hear from you.
+            </p>
+            <p className="text-lg text-medium-gray leading-relaxed">
+              Whether you've connected with a song, found yourself inside an essay, have a question, or simply want to say hello, you're welcome to get in touch.
+            </p>
+            <p className="text-lg text-medium-gray leading-relaxed">
+              You can also follow my work on social media, where I share new writing, music releases, and the ideas currently capturing my attention.
+            </p>
+          </div>
+
           <div className="mb-12">
             <h2 className="font-serif text-3xl sm:text-4xl font-medium text-charcoal mb-4">
               Follow me on:
