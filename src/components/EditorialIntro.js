@@ -33,13 +33,27 @@ const EditorialIntro = () => {
         >
           <div className="space-y-8 leading-relaxed">
             <p className="text-2xl sm:text-3xl text-charcoal font-extralight leading-loose tracking-[0.01em]">
-              This site is a collection of essays, music, and visual work exploring 
-              identity, creativity, and what it means to build a life deliberately.
+              Everything I create begins with the same question:
             </p>
             
             <p className="text-2xl sm:text-3xl text-charcoal font-extralight leading-loose tracking-[0.01em]">
-              It isn't a feed or a performance space. It's a body of work — 
-              considered, evolving, and made to be returned to.
+              “How do we do this life thing, right here, right now, while being prepared for tomorrow?”
+            </p>
+            
+            <p className="text-2xl sm:text-3xl text-charcoal font-extralight leading-loose tracking-[0.01em]">
+              That question has taken me through music, essays, and countless conversations. It rarely gives me answers, but it consistently leads me somewhere worth going.
+            </p>
+            
+            <p className="text-2xl sm:text-3xl text-charcoal font-extralight leading-loose tracking-[0.01em]">
+              I don't arrive with conclusions already formed. I arrive with questions and invite others to think alongside me.
+            </p>
+            
+            <p className="text-2xl sm:text-3xl text-charcoal font-extralight leading-loose tracking-[0.01em]">
+              This website isn't a portfolio or a feed. It's an evolving body of work exploring identity, creativity, psychology, authority, relationships, and the everyday challenge of living thoughtfully.
+            </p>
+            
+            <p className="text-2xl sm:text-3xl text-charcoal font-extralight leading-loose tracking-[0.01em]">
+              If these are questions you find yourself asking too, welcome.
             </p>
           </div>
         </div>
