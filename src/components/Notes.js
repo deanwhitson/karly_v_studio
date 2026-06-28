@@ -32,29 +32,57 @@ const Notes = () => {
 
   const notes = [
     {
-      id: 15,
+      id: 21,
       title: "Female Body, it used to be less profitable to cure",
       date: "6 May 2026",
-      content: `It came to my attention this morning how female sexual health used to be a lot harder to undestand and treat since they weren't really funding a lot of case studies around it.
+      content: `It came to my attention this morning how female sexual health used to be a lot harder to undestand and treat since they weren’t really funding a lot of case studies around it.
 
 I guess one can assume that people were under the impression that our sexual health and satisfaction was purely less important that any other medical issue.
 
 When the truth is, men used to be the big earners, so whatever men were spending money on, is what was being invested in.
 
-It's only in more recent years that they discovered that there is no difference between a clitoral and a vagimal orgasm - that the clitoris is actualy one large organ that goes all around the vagina.
+It’s only in more recent years that they discovered that there is no difference between a clitoral and a vagimal orgasm - that the clitoris is actualy one large organ that goes all around the vagina.
 
 They did this by dissecting a female corpse.
 
 But anatomy studies have been done for ages - why only now look at that?
 
-Well, I'm pretty sure that medical and drug companies would only investigate what made the big bucks. And now, women have caught up to the men.
+Well, I’m pretty sure that medical and drug companies would only investigate what made the big bucks. And now, women have caught up to the men.
 
 A newer emerging market that should be catered to.
 
 Kind of sad.`
     },
     {
-      id: 14,
+      id: 20,
+      title: "Vertical, Verbatim",
+      date: "3 May 2026",
+      content: `My dear friend, you deliver the truth direct and unfiltered.
+
+It’s a pleasure like few others to converse with you.
+
+As human beings, we feel the reluctance to really be seen by another.
+
+But it keeps us sheltered.
+
+It always has.
+
+My friend, confident,
+
+Vertical, Verbatim.
+
+Every word falls clean between us.
+
+No hidden edge, no aftertaste, no shifting ground beneath a phrase.
+
+Vertical, Verbatim.
+
+It’s calm, it’s clear, it doesn’t bend.
+
+We have a rare and easy trust.`
+    },
+    {
+      id: 19,
       title: "Her Mythology",
       date: "1 May 2026",
       content: `I used to carry a quiet kind of pride in being the female epitome of the emotional fugitive. A storm in a body. A spark without anchor—an enigma. I liked being seen that way. And that is where the psychological loop closes in on itself.
@@ -63,7 +91,7 @@ This type of woman seems unfazed by what unsettles other women. She presents as 
 
 Because being seen means something real could be asked for—and denied.
 
-She becomes the "cool girl." There's a pull to her. Aliveness, urgency, intensity. Passion without attachment.
+She becomes the “cool girl.” There’s a pull to her. Aliveness, urgency, intensity. Passion without attachment.
 
 I lived there for years. I numbed myself with alcohol and drugs. It allowed me to say and do things without having to stand behind them.
 
@@ -71,19 +99,19 @@ I chose men I believed were disposable.
 
 Not because they were—but because I needed them to be.
 
-I told myself they couldn't hurt the way I could.
+I told myself they couldn’t hurt the way I could.
 
-I'm no longer sure that was true. I think I needed it to be.
+I’m no longer sure that was true. I think I needed it to be.
 
-In the process, I left a trail of burned bridges behind me—dozens of men who won't even take my calls now.
+In the process, I left a trail of burned bridges behind me—dozens of men who won’t even take my calls now.
 
 There is also a certain kind of man who is drawn to this version of a woman. She becomes the perfect alibi for his own instability. As she gravitates toward intensity and escape, she is often used by the very men she believes she is outmaneuvering.
 
-But that isn't the whole story.
+But that isn’t the whole story.
 
 I did meet men who were willing to love me as I was.
 
-I just didn't let myself love them back.
+I just didn’t let myself love them back.
 
 Not fully. Not in a way that would cost me control.
 
@@ -99,14 +127,98 @@ And control kept me intact.
 
 It also kept me alone.
 
-There's no excuse for breaking a heart. Not a single one.
+There’s no excuse for breaking a heart. Not a single one.
 
-I can explain it now, but explanation doesn't undo it.
+I can explain it now, but explanation doesn’t undo it.
 
-If this reaches any one of you… I'm sorry.`
+If this reaches any one of you… I’m sorry.`
     },
     {
-      id: 13,
+      id: 18,
+      title: "What You Think I Meant",
+      date: "10 April 2026",
+      content: `It doesn’t start with what was said.
+
+It starts with how it lands.
+
+A tone.
+
+A pause.
+
+Something slightly off.
+
+And in that space,
+
+you decide what it meant.
+
+Not slowly.
+
+Not carefully.
+
+Instantly.
+
+You don’t check it.
+
+You don’t question it.
+
+You move with it.
+
+Your body shifts first.
+
+Then your voice follows.
+
+And now you’re responding
+
+to something that was never actually said.
+
+They feel it.
+
+They react to your reaction.
+
+And suddenly you’re both inside something
+
+that didn’t exist a few seconds ago.
+
+It escalates quickly.
+
+Because now it’s not about the words.
+
+It’s about what the words meant.
+
+Except you’re not working with the same meaning.
+
+So you push.
+
+They push back.
+
+Or they shut down.
+
+Or you do.
+
+And somewhere underneath it,
+
+there’s a simple gap.
+
+A moment where nothing was confirmed.
+
+Nothing was clear.
+
+Just filled.
+
+Too fast.
+
+Because sitting in that space,
+
+not knowing,
+
+feels worse than being wrong.
+
+So you choose certainty.
+
+And you build on it.`
+    },
+    {
+      id: 17,
       title: "The Cost Of Saying It",
       date: "10 April 2026",
       content: `I know what would happen if I said it.
@@ -131,7 +243,7 @@ Or quiet.
 
 Or distant.
 
-He might hear something I didn't mean.
+He might hear something I didn’t mean.
 
 Turn it into something bigger.
 
@@ -167,11 +279,11 @@ I choose the version of the day
 
 where nothing is wrong.
 
-Where we're still us
+Where we’re still us
 
 in the way I recognise.
 
-So I don't say it.
+So I don’t say it.
 
 I hold it.
 
@@ -191,897 +303,1121 @@ the way it always has.
 
 So I stay quiet.
 
-Not because I don't feel it.
+Not because I don’t feel it.
 
-Not because it doesn't matter.
+Not because it doesn’t matter.
 
-But because I'm trying
+But because I’m trying
 
 to protect something.
 
-Even if what I'm protecting
+Even if what I’m protecting
 
 is already starting to change.`
     },
     {
-      id: 12,
+      id: 16,
+      title: "Nothing Is Wrong",
+      date: "10 April 2026",
+      content: `There’s a moment where something feels off.
+
+Not dramatically wrong.
+
+Not broken.
+
+Just… not right.
+
+You feel it in your body first.
+
+A tightness.
+
+A restlessness.
+
+A kind of internal noise you can’t quite locate.
+
+And almost immediately, your mind steps in to solve it.
+
+What’s wrong?
+
+Why do I feel like this?
+
+What caused it?
+
+You start scanning.
+
+Was it something I said?
+
+Something they did?
+
+Something I didn’t do?
+
+The search begins.
+
+Because the assumption is simple:
+
+If it feels wrong, something must be wrong.
+
+But that’s not always true.
+
+Sometimes nothing is wrong.
+
+Sometimes your body is just processing.
+
+Catching up.
+
+Moving something through that hasn’t had space to move.
+
+But the moment you label it as a problem,
+
+you interrupt the process.
+
+Now it’s no longer a feeling passing through.
+
+It’s a situation to fix.
+
+And once you start fixing,
+
+you start interfering.
+
+You tighten around it.
+
+You analyze it.
+
+You try to resolve it.
+
+And in doing so,
+
+you give it weight it didn’t have before.
+
+The feeling that might have moved quietly
+
+now stays.
+
+Not because it was important,
+
+but because you made it so.
+
+So sometimes the most accurate response is the simplest one:
+
+Nothing is wrong.
+
+Not as denial.
+
+Not as avoidance.
+
+But as restraint.
+
+A decision not to turn every internal shift
+
+into a problem that needs a solution.
+
+Because not everything you feel
+
+is asking to be understood.
+
+Some things are just passing through.`
+    },
+    {
+      id: 15,
+      title: "It Was Easier When We Didn’t Have To Try",
+      date: "10 April 2026",
+      content: `It used to be easy.
+
+Not perfect.
+
+Not dramatic.
+
+Just… easy.
+
+Things landed the way they were meant.
+
+Words didn’t need explaining.
+
+You didn’t have to check meaning.
+
+You just knew.
+
+Or it felt like you did.
+
+There was no effort in it.
+
+No strategy.
+
+No careful timing.
+
+You spoke, and it worked.
+
+So you built something on top of that.
+
+An idea.
+
+That this is what it’s supposed to be like.
+
+Natural.
+
+Aligned.
+
+Effortless.
+
+And for a long time, it was.
+
+Until it wasn’t.
+
+Now there are pauses where there weren’t before.
+
+Misfires.
+
+Moments that don’t quite land.
+
+And suddenly, something that never needed attention
+
+needs it.
+
+But there’s no language for it.
+
+Because you never had to build it.
+
+You never had to say,
+
+“That didn’t feel right.”
+
+You never had to check,
+
+“What did you mean by that?”
+
+So now, when something small shifts,
+
+you hesitate.
+
+Because speaking feels like breaking something
+
+that used to run on its own.
+
+So you leave it.
+
+You let it pass.
+
+You tell yourself it’s not worth it.
+
+That it’s small.
+
+That it’ll settle.
+
+That saying something might make it worse.
+
+And maybe it would.
+
+But not saying anything
+
+does something quieter.
+
+It slowly changes the shape of the space between you.
+
+Not all at once.
+
+Just enough that you start adjusting to it.
+
+Working around it.
+
+Staying just slightly quieter than you were before.
+
+Until one day,
+
+it’s no longer effortless.
+
+And you don’t know when that changed.`
+    },
+    {
+      id: 14,
       title: "If I Fall Asleep Now",
       date: "10 April 2026",
-      content: `I don't remember the last time I felt like this.
+      content: `It starts as tiredness.
 
-At ease.
+Simple, physical, honest tiredness.
 
-Settled.
+The kind your body knows how to solve on its own.
 
-Not because everything is perfect.
+But then something shifts.
 
-But because I'm not waiting for it to be.
+You look at the clock.
 
-There was a time when I would have turned this into something else.
+2:00.
 
-A feeling to examine.
+If I fall asleep now, I can still get five hours.
 
-A state to understand.
+3:00.
 
-Something to pick apart until I could explain it.
+If I fall asleep now, I can still get four.
 
-But I don't need to explain it anymore.
+At some point, sleep stops being something your body does
 
-I don't need to justify why I feel good.
+and becomes something you are trying to achieve.
 
-I don't need to check if it's real.
+And that’s when it breaks.
 
-I don't need to worry about when it will leave.
+Because now you’re not resting.
 
-I can just be here.
+You’re calculating.
 
-In this.
+You’re negotiating.
 
-Without needing to name it.
+You’re managing an outcome.
 
-Without needing to hold it.
+Your body is tired,
 
-Without needing to make sure it stays.
+but your mind is working overtime to secure the result.
 
-If I fall asleep now,
+Sleep becomes performance.
 
-it won't be because I'm escaping.
+And like anything that becomes performance,
 
-It won't be because I can't handle being awake.
+it starts to fail under pressure.
 
-It will be because there's nothing left to solve.
+The irony is quiet, but brutal:
 
-Nothing left to figure out.
+The more you need sleep,
 
-Nothing left to do
+the less available it becomes.
 
-but rest.`
+Not because your body can’t do it,
+
+but because you’ve stepped in to help.
+
+And help, in this case,
+
+is the problem.
+
+So eventually, there’s only one way out of it.
+
+You stop trying to sleep.
+
+Not as a trick.
+
+Not as reverse psychology.
+
+But as a small surrender.
+
+You lie there, not to sleep,
+
+but simply to be.
+
+And somewhere in that absence of effort,
+
+your body remembers how.`
+    },
+    {
+      id: 13,
+      title: "Cut Off",
+      date: "10 April 2026",
+      content: `It’s not a decision I made tonight.
+
+That’s the thing.
+
+There’s no dramatic moment where I stood up and said, I’m done.
+
+No speech. No final message. No slammed door.
+
+It’s quieter than that.
+
+We are cut off.
+
+Not because I chose distance.
+
+Because connection never fully existed in the way I needed it to.
+
+And I kept reaching anyway.
+
+I kept thinking there was a version of this where we would meet —
+
+where I would be seen properly,
+
+where my thinking wouldn’t be reduced,
+
+where I wouldn’t have to translate myself just to be understood.
+
+But that version never arrived.
+
+And hoping that it would… is exhausting.
+
+Tonight it showed up again, in a small, almost insignificant way.
+
+A letter. A message. Words written with certainty.
+
+But underneath it was something else.
+
+Something familiar.
+
+A reminder of a world I don’t live in anymore.
+
+A framework that assumes I am missing something.
+
+A quiet insistence that I need to be corrected, guided, brought back.
+
+And I don’t.
+
+Not because I’m rebellious.
+
+Not because I’m avoiding anything.
+
+But because I’ve already been there.
+
+I’ve already lived inside that certainty.
+
+I’ve already asked those questions.
+
+And I left it consciously.
+
+What’s difficult isn’t the difference.
+
+It’s the misreading.
+
+It’s being seen as something smaller than I am.
+
+Simpler than I am.
+
+Less considered than I am.
+
+It’s knowing that no matter how clearly I think,
+
+how responsibly I approach these things,
+
+how carefully I choose what I believe—
+
+it will still be interpreted through a lens that cannot see it.
+
+That’s the part that hurts.
+
+Not disagreement.
+
+Disconnection.
+
+And maybe that’s the truth I keep circling:
+
+You can’t force connection where there is no shared ground.
+
+You can’t think your way into being understood by someone who isn’t asking the same questions.
+
+You can’t build a bridge alone.
+
+So what’s left?
+
+Not clarity. Not peace. Not yet.
+
+Just this.
+
+Sitting in it.
+
+Feeling the weight of it.
+
+Wanting it to be different and knowing it isn’t.
+
+Maybe something will settle later.
+
+Maybe a kind of stillness will come.
+
+But right now, it hasn’t.
+
+And I’m not going to pretend that it has.`
+    },
+    {
+      id: 12,
+      title: "What I Didn’t Say",
+      date: "10 April 2026",
+      content: `It lands in the body first.
+
+Low.
+
+Uncomfortable.
+
+A quiet kind of wrong.
+
+You feel it.
+
+Immediately.
+
+But you don’t say anything.
+
+Not yet.
+
+You wait.
+
+You try to understand it first.
+
+Try to make sure you’re not overreacting.
+
+Try to get it right.
+
+So you stay quiet.
+
+And while you’re quiet,
+
+something else happens.
+
+The feeling starts to grow.
+
+It picks up meaning.
+
+It gathers weight.
+
+What was small
+
+is no longer small.
+
+Now it has context.
+
+A story.
+
+A direction.
+
+By the time you speak,
+
+you’re not speaking from the moment anymore.
+
+You’re speaking from everything
+
+that built on top of it.
+
+And it comes out different.
+
+Heavier.
+
+Sharper.
+
+Harder to place.
+
+And now it sounds like more than it was.
+
+Because it is.
+
+Not because of what happened,
+
+but because of what wasn’t said
+
+when it first arrived.
+
+So it sits there instead.
+
+In the body.
+
+In the throat.
+
+Half-formed.
+
+Half-held.
+
+Waiting for a moment
+
+that would have been easier
+
+when it was still small.`
     },
     {
       id: 11,
-      title: "Cut Off",
+      title: "I Chose Not To Say It",
       date: "10 April 2026",
-      content: `There's a moment where it just stops.
+      content: `I felt it.
 
-The conversation.
+Clear.
 
-The flow.
+Immediate.
 
-The feeling that it was going somewhere.
+Not confusing.
 
-It doesn't always end dramatically.
+Something in me knew
 
-Sometimes it just… fades.
+that something had just gone slightly off.
 
-One person checks out.
+And there was a moment.
 
-The other keeps going for a moment longer.
+A small one.
 
-Then they notice.
+Where I could have said it.
 
-Then they stop too.
+Not dramatically.
 
-And suddenly, you're in a different kind of silence.
+Not perfectly.
 
-Not the comfortable kind.
+Just enough.
 
-Not the kind that means you're together.
+But I didn’t.
 
-The kind that means you're apart.
+Not because I didn’t know how.
 
-Even if you're in the same room.
+Not because I needed more time.
 
-I've been in that moment so many times.
+I knew.
 
-I've felt the shift.
+I chose not to.
 
-I've seen the change in someone's eyes.
+I told myself it wasn’t worth it.
 
-I've heard the way their voice changes
+That it was small.
 
-when they've already left the conversation.
+That it would pass.
 
-And I used to think it was my fault.
+That saying something might shift the mood.
 
-I used to think I did something wrong.
+Might turn something light into something heavy.
 
-I used to try to fix it.
+So I let it go.
 
-To bring it back.
+Outwardly.
 
-To make it work again.
+But it didn’t go anywhere.
 
-But sometimes it's not about fixing.
+It stayed.
 
-Sometimes it's about recognizing when something is over.
+In the body.
 
-When the connection has been cut.
+In the throat.
 
-When the energy has shifted.
+Right where it first landed.
 
-When the moment has passed.
+And from there, it changed.
 
-And the hardest part isn't the ending.
+It picked up shape.
 
-It's the space between.
+Tone.
 
-The time where you're still there
+Meaning.
 
-but it's already gone.
+It started connecting to other moments.
 
-The time where you're still speaking
+Other times I had done the same thing.
 
-but no one is listening.
+And now it wasn’t just this.
 
-The time where you're still trying
+It was everything like this.
 
-but right now, it hasn't.
+By the time I spoke again,
 
-And I'm not going to pretend that it has.`
+I was no longer in that moment.
+
+I was in all of them.
+
+And it came out like that.
+
+Bigger than it needed to be.
+
+Harder than I meant it.
+
+And impossible to trace back
+
+to where it actually started.
+
+But I know where it started.
+
+It started
+
+when I chose
+
+not to say it.`
     },
     {
       id: 10,
       title: "I Still Choose You",
       date: "10 April 2026",
-      content: `It's not as easy as it was.
+      content: `It’s not as easy as it was.
 
-Not as automatic.
+That part is true.
 
-Not as simple.
+We miss each other sometimes.
 
-There are moments where I feel it.
+We land slightly off.
 
-The distance.
+Things don’t always flow the way they used to.
 
-The difference.
+And I feel it.
 
-The way something that used to feel effortless
+I notice the difference.
 
-now requires something.
+The small gaps where there weren’t any before.
 
-And in those moments,
+For a moment, I want to fix it.
 
-I have a choice.
+Or avoid it.
 
-I can focus on what's changed.
+Or pretend it’s not happening.
 
-Or I can focus on what's still here.
+But none of that is true either.
 
-I can focus on the gap.
+This is.
 
-Or I can focus on the ground beneath it.
+Something has changed.
 
-I can focus on what's missing.
+Not everything.
 
-Or I can focus on what remains.
+Not the whole thing.
 
-And I choose.
+But enough that I can’t pretend
 
-I still choose you.
+it’s still effortless.
 
-Not because it's perfect.
+And maybe that’s the part we never learned.
 
-Not because it's unchanged.
+What happens when it’s not.
 
-Not because it's effortless.
+What happens when it needs something from us
 
-But because it's real.
+that it didn’t before.
 
-Because it's worth it.
+Because easy doesn’t ask anything.
 
-Because even when it's hard,
+It just works.
 
-it's still good.
+This does.
 
-And I'm still here.
+And I can feel the instinct to protect
 
-And I'm still choosing.
+what it used to be.
 
-And that means something.
+To stay quiet.
 
-Even if it doesn't look like it used to.
+To keep things smooth.
 
-Even if it doesn't feel like it used to.
+To not risk shifting the ground any further.
 
-Even if everything around it has shifted.
+But there’s another truth sitting underneath that.
 
-The choice remains.
+I’m still here.
 
-I still choose you.`
+Not because it’s easy.
+
+Not because it’s perfect.
+
+But because I choose it.
+
+I choose you.
+
+Not the version of us
+
+that never had to try.
+
+But the version
+
+that does.`
     },
     {
       id: 9,
       title: "The Violence in a Smile",
       date: "6 April 2026",
-      content: `There is a particular kind of violence in a smile that doesn't reach the eyes.
+      content: `I looked up teeth whitening today.
 
-Not the cruelty of someone who wants to hurt you.
+A small, practical question. Price ranges, nearby places, how it works. One of those normal, adult decisions that sits somewhere between maintenance and self-improvement.
 
-Something quieter.
+But it didn’t stay small for very long.
 
-Something more subtle.
+Because teeth are strange, when you really think about them.
 
-The violence of someone who doesn't want to be there.
+They are bone, exposed. The only part of the skeleton we display without hesitation. We hide the rest of ourselves—cover, soften, protect—but the mouth we present freely. And then we refine it.
 
-The violence of someone who has already left.
+We polish it.
 
-The violence of someone who is performing
+We make it brighter than bone has ever been.
 
-while checking the time.
+There is something quietly revealing in that.
 
-I've been on both sides of this.
+A smile is one of the most powerful signals we have. It communicates safety, openness, warmth. It says: you can come closer. It disarms. It invites. Entire interactions are shaped by it before a single word is spoken.
 
-I've been the one smiling through it.
+But underneath that signal is something else entirely.
 
-I've been the one receiving it.
+Structure. Force. Capability.
 
-And neither side feels good.
+The same teeth that form a smile are designed to tear, to break, to defend. The same mouth that reassures is the one that could harm. And somehow, we have learned to present only one side of that equation, as if the other does not exist.
 
-On the giving end, there's a hollowing out.
+Or perhaps more accurately, as if it must be hidden.
 
-A slow drain of authenticity.
+Because a smile is not just an expression. It is a controlled one.
 
-A moment where you betray yourself
+Unlike many other reactions, it can be turned on deliberately. Held. Adjusted. Offered at the right moment. Withdrawn just as easily. It sits at the intersection of instinct and performance, which is why it carries so much weight.
 
-to keep the peace.
+It is both real and constructed at the same time.
 
-To keep the connection.
+And that is where things start to shift.
 
-To keep the appearance of something
+Because when something becomes both signal and performance, it becomes something we can optimise.
 
-that no longer exists.
+Refine.
 
-On the receiving end, there's a different kind of harm.
+Standardise.
 
-A quiet knowing.
+We begin to ask: what does a “good” smile look like?
 
-A sense that you're being managed.
+And the answers, over time, become strangely specific.
 
-A feeling that you're in the room,
+Whiter. Straighter. More uniform. More symmetrical. More controlled.
 
-but not really in the room.
+More acceptable.
 
-And the worst part is how ordinary it is.
+There is nothing inherently wrong with care. Wanting to feel confident, to present well, to take ownership of how you move through the world—these are not shallow desires. They are human ones.
 
-How common.
+But there is a threshold.
 
-How accepted.
+A point where care becomes correction.
 
-We do it all the time.
+Where enhancement becomes replacement.
 
-We smile when we don't mean it.
+Where the signal stops communicating something true, and starts communicating something expected.
 
-We agree when we don't feel it.
+You can see it most clearly at the extreme.
 
-We stay when we've already left.
+The hyper-white teeth. The artificially deepened skin tone. The sharp contrast engineered for visual impact. A look so polished it begins to detach from the person wearing it.
 
-And we call this being polite.
+It becomes a surface.
 
-We call this being professional.
+A performance of vitality rather than vitality itself.
 
-We call this being appropriate.
+And it’s not just about aesthetics. It’s about what we are trying to say through that aesthetic.
 
-But I'm starting to wonder
+A smile, at its core, is a negotiation.
 
-if the cost is higher than we think.
+It says: I am safe enough. I am open enough. I am in control enough.
 
-If the violence in that smile
+But also, quietly: I am choosing what you see.
 
-is doing more damage than we can see.
+That choice is where power lives.
 
-If the betrayal of ourselves
+And it is also where distortion can begin.
 
-is accumulating in ways we can't undo.
+Because if the smile becomes entirely curated, entirely aligned with an external ideal, then something underneath it is being managed, or muted, or hidden.
 
-So maybe the bravest thing
+The bite disappears.
 
-is not to smile through it.
+Not physically, but symbolically.
 
-But to be honest enough
+And yet, the most compelling presence is not one that erases that duality.
 
-to let the smile fall.`
+It’s one that holds it.
+
+A smile that is warm, but not submissive.
+
+Open, but not naive.
+
+Controlled, but not disconnected.
+
+One that still belongs to the person wearing it.
+
+I realised, somewhere in the middle of all of this, that I wasn’t really asking about teeth whitening.
+
+I was asking a different question.
+
+Not: how do I improve my smile?
+
+But: what do I want my smile to say?
+
+Power.
+
+Approachability.
+
+Truth.
+
+Not one at the expense of the others, but all three held at once.
+
+Because maybe the goal isn’t to perfect the signal.
+
+Maybe it’s to make sure the signal is still yours.
+
+Not something inherited.
+
+Not something performed.
+
+But something chosen, consciously, with full awareness of what sits beneath it.
+
+A smile, after all, is not the absence of the bite.
+
+It is the decision of what to do with it.`
     },
     {
       id: 8,
       title: "Everybody wants to be seen…right?",
       date: "5 April 2026",
-      content: `I think we've misunderstood this.
+      content: `He says something that is just 0.001% off what I truly feel, and I’m already correcting.
 
-I think we've taken "being seen"
+Trying to make sure he knows I have a brain.
 
-and turned it into something else.
+I don’t even think of the 20 minutes before then,  when I just spoke freely. Sleep-deprived and kind of just wanting this thing to be over now.
 
-Something performative.
+Very irresponsible. Especially for my first big interview with a CEO at a recruitment agency. So I’m open, very open. Tired. More tired than I’ve been in over a decade. It’s been quite a few months.
 
-Something transactional.
+And he addresses me differently than what I thought he would. In fact, the whole interaction is quite surreal in how he meets my level of consciousness.
 
-Something that requires an audience.
+He’s good at his job. He reads people; finds trends. And he pinpointed me in under ten minutes.
 
-But being seen isn't about being watched.
+“Not safe, not safe”, my system screams.
 
-It's about being understood.
-
-It's about being received.
-
-It's about being met.
-
-And sometimes,
-
-that happens in complete privacy.
-
-Sometimes,
-
-that happens when no one is watching.
-
-Sometimes,
-
-that happens in the quietest moments,
-
-where the only witness is yourself.
-
-I used to think I needed to be seen by others
-
-to feel real.
-
-To feel valid.
-
-To feel like I existed.
-
-But I'm starting to realize
-
-that the most important seeing
-
-is the one I do for myself.
-
-The one where I acknowledge what's actually there.
-
-The one where I don't look away.
-
-The one where I don't pretend.
-
-The one where I meet myself
-
-with honesty instead of performance.
-
-And from that place,
-
-the external seeing matters less.
-
-Not because it doesn't matter at all.
-
-But because it's no longer the foundation.
-
-It's no longer the thing I need
-
-to feel okay.
-
-I can be seen by myself first.
-
-And that changes everything.`
+It’s terrifying to be seen. And realizing that I’m more of a stereotype than I thought - not the precious snowflake of a personality that I thought I had so carefully curated.`
     },
     {
       id: 7,
-      title: "When You're in the Thick of It",
+      title: "When You’re in the Thick of It",
       date: "31 March 2026",
-      content: `When you're in the thick of it,
+      content: `I’ve made the mistake.
 
-there's no perspective.
+It’s done. There’s no changing, fixing, or reframing.
 
-There's no distance.
+It is what it is, and there is literally nothing I can do to change it now.
 
-There's no way to see the shape of it.
+I just have to push through it.
 
-You're just in it.
+The wave didn’t choose me. I decided on which direction I’m going, and it turned out it was the wrong way.
 
-Moving through it.
+I swam out and got up onto that enormous body of water, and now, instead of gliding carelessly upon it, it’s crashing down onto me.
 
-Trying to survive it.
+It’s not that the ocean is upset with me.
 
-And in that moment,
+It’s just being what it is—doing what it does.
 
-every piece of advice feels like a betrayal.
+I am a tiny thing in a massive reality.
 
-Every "it will get better" feels like a dismissal.
+There comes a moment in the cycle where you have to pay for your bad decisions. It’s pure cause and effect, not even moral.
 
-Every "look at the bright side" feels like violence.
+I’m going through the consequences now, and writing about it reminds me that it is temporary. It’s just part of a mechanism. It is not me.
 
-Because you're not on the bright side.
+It is not.
 
-You're in the dark.
+It is not.
 
-And you need someone to meet you there.
+But right now all I can do is repeat that last sentence over and over to drown out the other seventeen voices screaming that IT IS. IT IS IT IS IT IS IT IS IT IS.
 
-Not to pull you out.
-
-Not to fix it.
-
-Not to make it okay.
-
-But to sit with you in the not-okay.
-
-To acknowledge that it's hard.
-
-To validate that it hurts.
-
-To be present with the reality of it
-
-without trying to change it.
-
-And that's the hardest thing for most people.
-
-Because most people can't sit with discomfort.
-
-They can't sit with pain.
-
-They can't sit with not knowing.
-
-So they try to fix.
-
-They try to solve.
-
-They try to make it better.
-
-And in doing so,
-
-they accidentally invalidate
-
-the very thing you need them to witness.
-
-So here's what I'm learning:
-
-When someone is in the thick of it,
-
-don't try to get them out.
-
-Just be with them while they're in it.
-
-That's enough.
-
-That's actually everything.`
+This too shall pass. Everything does.`
     },
     {
       id: 6,
       title: "Both, And More. Part 2",
       date: "29 March 2026",
-      content: `I think the problem with most advice
+      content: `There’s a pattern I’ve come to recognise.
 
-is that it tries to resolve the tension.
+It isn’t constant, but it returns often enough now that I can’t call it accidental. A few times a month, something opens again. The same softening of whatever usually filters things out. And then the work comes—fast, structured, insistent.
 
-It picks a side.
+It’s not chaotic. That’s the strange part. It arrives with form already inside it. Songs, sentences, connections between ideas. Not perfect, but coherent. As if something has already been arranged, and I’m just trying to keep up with the pace at which it reveals itself.
 
-It tells you which one is right.
+My hands don’t move fast enough for it. My systems don’t quite contain it. I jump between recording, writing, organising, trying to catch as much as I can before it shifts again. It feels urgent, but not anxious. Driven, but not forced.
 
-It tells you which one to choose.
+And I stay with it.
 
-But life isn't like that.
+Longer than I should, probably. I don’t sleep properly. I push through the signals that normally tell me to stop. Because in that state, stopping feels like interruption. Like walking away mid-sentence from something that matters.
 
-Life is both, and more.
+There’s a physical cost to that. I feel it.
 
-You can love someone and still need to leave.
+When I step out of it—even briefly—the exhaustion is immediate and heavy. Not subtle. Not negotiable. It’s as if the body has been postponed, and then returns all at once to collect what it’s owed.
 
-You can be happy and still feel grief.
+But when the current is there, I don’t feel tired. I feel precise. Alert in a very specific way. Not jittery, not scattered. Focused, but without effort. Like everything I hear, everything I play, lands exactly where it’s meant to. The smallest details feel aligned. Sound becomes something I can almost step inside.
 
-You can be confident and still be afraid.
+It feels good to make things in that state. More than good. It feels right.
 
-You can know what to do and still not do it.
+And then afterwards, there’s always the question.
 
-You can be healing and still be broken.
+Was it actually good? Or did it just feel good?
 
-These aren't contradictions.
+I’ve learned to check. To come back to it later, with rest, with distance. Some of it doesn’t hold. That’s expected. But a surprising amount of it does. It builds. It connects to what I’ve already made. It isn’t random. It’s part of something consistent, even if the way it arrives isn’t.
 
-They're complexity.
+That’s what I’m noticing more now. The consistency inside the inconsistency.
 
-They're the texture of actual experience.
+It’s not new. I can trace it back through my life in smaller ways. But over the past year, it’s become more frequent. More accessible, maybe. Or maybe I’ve simply made more space for it.
 
-The version of life where everything is resolved
+My studio is set up for it now. Everything within reach. Instruments, recording, writing, editing. It’s a contained environment where I can go fully into it without being physically unsafe. That matters. It means I can let it run without having to manage external risk at the same time.
 
-isn't real life.
+But there are still boundaries.
 
-It's a fantasy.
+I have a child. I have a life that continues outside of this. And I feel the tension between the two. The pull to stay in it longer, and the responsibility to step out. The awareness that something powerful is happening, and the simultaneous awareness that I can’t give myself over to it completely.
 
-A simplified version
+And maybe that’s part of why it works.
 
-that doesn't exist outside of stories.
+There’s also a quieter layer underneath it all. A question about what this actually is.
 
-Real life is messy.
+Sleep deprivation changes things. That much is known. The brain filters less. Associations come faster. The edges between things blur. That could explain some of it. It probably does explain some of it.
 
-Real life is overlapping.
+But it doesn’t explain the structure. Or the sense of coherence. Or the feeling that what’s coming through isn’t just noise, but something that can be shaped into something real.
 
-Real life is holding things
+I don’t need to define it completely. Not yet.
 
-that don't fit together neatly.
+What I do know is that it comes, and it goes. That it gives something, and it takes something. That it feels expansive while it’s happening, and contracting when it passes.
 
-And the maturity comes
+Right now, I’m on the other side of it again.
 
-not from resolving the tension,
+Very tired. More aware of my body. Of time. Of everything that was temporarily quiet. There’s a slight uneasiness here. Not negative, just… exposed. Like the silence after something loud.
 
-but from being able to hold it.
+I can feel the pull of it still, somewhere in my chest and behind my eyes. But I can’t step back into it at will. Not in this state.
 
-From being able to say,
+And maybe that’s the point.
 
-"I don't know."
+It isn’t something I control. It’s something I meet when the conditions are right. Something I’ve learned to recognise, to work with, to question—but not to own completely.
 
-From being able to say,
+A cycle, not a constant.
 
-"It's complicated."
+Both. And more.
 
-From being able to say,
-
-"Both are true."
-
-And to not need that to be a problem.
-
-To not need to pick one.
-
-To not need to make it make sense.
-
-Just to let it be what it is.
-
-Complex.
-
-Overlapping.
-
-Both, and more.`
+And then… back again.`
     },
     {
       id: 5,
       title: "When You Do It Right… and Nothing Happens",
       date: "27 March 2026",
-      content: `There's a particular kind of disappointment
+      content: `There’s a strange kind of gap that shows up when you start doing things more deliberately.
 
-that comes from doing everything right
+Not louder. Not faster. Just more intentionally.
 
-and still not getting the result.
+You think things through. You refine. You stop rushing just to be seen. And then the response doesn’t quite match what you expect.
 
-It's not the disappointment of failure.
+Not dramatically. Just… slightly off.
 
-Failure makes sense.
+It’s difficult to read while you’re inside it.
 
-You can learn from failure.
+Because the instinct is to adjust the work. To make it clearer, sharper, more appealing. That feels like the responsible thing to do.
 
-You can adjust from failure.
+But there’s another possibility.
 
-But this…
+That the work isn’t the issue.
 
-This is different.
+That it’s simply not meeting the right context yet.
 
-This is where you followed the rules.
+That’s harder to sit with.
 
-You did the work.
+Because it asks for patience, and for a kind of restraint that goes against the urge to keep fixing.
 
-You put in the effort.
-
-And nothing changed.
-
-Or worse,
-
-it went backward.
-
-And that's the moment where the story breaks.
-
-Because the story was always:
-
-If you do X, you'll get Y.
-
-If you work hard, you'll succeed.
-
-If you're good, you'll be rewarded.
-
-If you show up, you'll be seen.
-
-But sometimes,
-
-that's not how it works.
-
-Sometimes you do everything right
-
-and the universe doesn't respond.
-
-Sometimes you do everything right
-
-and people don't change.
-
-Sometimes you do everything right
-
-and the outcome is the same.
-
-And in that moment,
-
-you have to make a choice.
-
-Do you keep doing it anyway?
-
-Do you keep showing up?
-
-Do you keep trying?
-
-Even when the formula is broken?
-
-Even when the guarantee is gone?
-
-Even when there's no evidence that it matters?
-
-This is where integrity lives.
-
-Not in the easy moments,
-
-where everything lines up.
-
-But in the hard moments,
-
-where you do it anyway.
-
-Not because it will work.
-
-But because it's who you are.
-
-And that has to be enough.`
+I’m still working out how to tell the difference.`
     },
     {
       id: 4,
-      title: "The Past Doesn't Ask Permission",
+      title: "The Past Doesn’t Ask Permission",
       date: "19 March 2026",
-      content: `The past doesn't ask permission
+      content: `There are moments where I react to something small like it’s something big. Not logically, not proportionally—just immediately. Emotion first, reasoning later. And in those moments, it feels completely real.
 
-before it shows up.
+But then I step back and look at what’s actually in front of me. And it doesn’t match.
 
-It doesn't check if you're ready.
+I’m in a relationship where someone has proven themselves consistently over time. Not through words or promises, but through follow-through. Quietly. Repeatedly. And still, under pressure, something in me doesn’t fully trust it. That’s the part that’s difficult to admit.
 
-It doesn't wait for the right moment.
+Because it’s not just about what happened before. It’s about what I believed before.
 
-It just arrives.
+There was a time where I was in something I thought was right. I thought it was good. I thought it was stable. I thought it was the one I was meant to be in. And I was wrong. Not immediately—at first it made sense. But slowly, things didn’t hold. Words didn’t match reality. Promises didn’t translate into action. And somewhere in that process, something shifted.
 
-Sometimes through a smell.
+It’s not just that I learned not to trust what I’m told. It’s that I learned I can feel certain—and still be wrong.
 
-Sometimes through a song.
+That’s what stays.
 
-Sometimes through a phrase someone says.
+So now, in moments of stress—when I’m tired, stretched, overwhelmed—that old pattern comes back online. Not as a thought, but as a feeling. A sense that something isn’t safe, even when there’s no clear reason for it. A doubt that doesn’t match the evidence in front of me.
 
-And suddenly,
+The danger isn’t the past itself. It’s mistaking it for the present.
 
-you're back there.
+Because the person in front of me is not the person from before. The situation is not the same. The proof is different. But the body doesn’t always update as quickly as reality does.
 
-Not physically.
+And the work isn’t pretending that reaction isn’t there. It’s noticing it—and then checking it against what is actually true now. Not what feels familiar. Not what feels expected. What is true.
 
-But emotionally.
+Because the past doesn’t disappear.
 
-In the feeling of it.
+It waits.
 
-In the memory of it.
-
-In the body of it.
-
-And there's no preparing for this.
-
-There's no controlling when it happens.
-
-There's no choosing what triggers it.
-
-It just does.
-
-And the challenge isn't to prevent it.
-
-The challenge is to meet it differently.
-
-To not get lost in it.
-
-To not let it take over.
-
-To not let it rewrite the present.
-
-Because the past is real.
-
-But it's not current.
-
-It happened.
-
-But it's not happening now.
-
-And that distinction is everything.
-
-You can feel it without becoming it.
-
-You can remember it without reliving it.
-
-You can acknowledge it without surrendering to it.
-
-The past doesn't ask permission
-
-before it shows up.
-
-But you don't have to give it everything when it does.`
+And under pressure, it speaks.`
     },
     {
       id: 3,
       title: "Petrichor",
       date: "12 March 2026",
-      content: `There's a word for the smell of rain on dry earth.
+      content: `A Storm Outside the Mind
+
+When a storm moves through the sky, my mind grows quiet.
+
+I have always loved thunderstorms.
+
+Not the soft drizzle people describe as peaceful, but the real storms — the kind where the sky darkens suddenly and the air changes. Heavy rain. Lightning cutting across the sky. Thunder rolling somewhere above the houses.
+
+Most of the time my mind is busy. Observations rarely stay loose for long before they begin arranging themselves into something structured. Experiences become sentences. Thoughts become essays or songs. Meaning has a way of forming whether I intend it to or not.
+
+But when a storm arrives, that impulse loosens its grip.
+
+The rain occupies the sky. Thunder rolls through the air. And for a while the constant movement of thought slows down enough that I can simply sit inside the moment instead of trying to explain it.
+
+I noticed this long before I had language for it.
+
+When I was a teenager, my bedroom was on the top floor of the house where I lived with my parents. It was only a two-story house, but my room felt high enough that the sky seemed very close.
+
+The room was large, with a balcony outside a sliding glass door. From there I could see the roofs of the surrounding houses and a wide stretch of open sky above them.
+
+When storms rolled in, I would open the curtains and lie on my bed facing the glass door.
+
+The room would become completely dark.
+
+Then lightning would strike.
+
+For a single second the entire world appeared — every house, every tree, every leaf suddenly sharp and illuminated. The sky would flash bright enough to fill the room, and then the light would vanish again just as quickly.
+
+Darkness returned.
+
+A few seconds later the thunder arrived.
+
+That pause between the lightning and the thunder was always my favorite moment. The sky had already revealed itself, but the sound had not yet caught up.
+
+Flash.
+
+Silence.
+
+Then the long rolling sound of the storm moving overhead.
+
+Even now, whenever I have the chance, I watch storms.
+
+Sometimes I step into them.
+
+I have been sitting in restaurants when the rain begins and simply walked outside into the street, letting the rain fall without worrying about getting wet. There is something strangely freeing about that moment — as if adulthood pauses long enough to allow a simple impulse.
+
+Other times I stay inside.
+
+I sit near a window and watch the rain while wrapped in a blanket — even in summer, when the air cools just enough to make the room feel softer. Storms change the atmosphere of everything. The light shifts. The temperature drops. The world slows down.
+
+And then there is the smell.
+
+There is even a word for it.
 
 Petrichor.
 
-I learned it recently
+The word comes from ancient Greek — petra, stone, and ichor, the fluid said to run through the veins of the gods.
 
-and it's been living in me ever since.
+The blood of the earth, rising after rain.
 
-Not just the word itself,
+Storms seem to carry a kind of release with them.
 
-but what it represents.
+The air builds pressure all day. The sky grows heavy. And then the rain finally falls. Something in the world lets go.
 
-The idea that there's a name
+Storms feel familiar because they form the same way thoughts do: pressure first, then release.
 
-for something so specific.
+For a while I don’t feel the need to explain anything. I can sit quietly, watching the sky flash and listening to the thunder move across it, without trying to capture the moment in words.
 
-Something so sensory.
+The storm is already complete.
 
-Something so particular.
+It does not need interpretation.
 
-That the world has been paying attention.
+It simply arrives, moves through the sky with its own rhythm, and passes again.
 
-That there are people who noticed
+And for a little while, sitting inside that rhythm, my mind rests.
 
-and named
-
-and recorded
-
-this exact experience.
-
-And I find this comforting.
-
-It makes me feel less alone.
-
-It makes me feel like my small observations matter.
-
-Like the things I notice
-
-have been noticed before.
-
-Like the way I experience the world
-
-is part of a larger pattern.
-
-There's a word for the smell of rain on dry earth.
-
-There's a word for the feeling of missing someone you haven't met yet.
-
-There's a word for the specific kind of tiredness
-
-that comes from emotional work.
-
-We have language for so much.
-
-And having the language
-
-changes the experience.
-
-It validates it.
-
-It connects it.
-
-It makes it real in a different way.
-
-So I'm paying attention to the things I don't have words for yet.
-
-The moments I can't name.
-
-The feelings I can't describe.
-
-The experiences I can't quite capture.
-
-Because somewhere,
-
-someone is probably working on the word for it.
-
-And when I find it,
-
-it will feel like coming home.`
+When the storm moves through the sky, my mind no longer has to be one.`
     },
     {
       id: 2,
       title: "Silence in the Social Media Realm",
       date: "12 March 2026",
-      content: `I've been thinking about silence online.
+      content: `I gave it at least two days before checking the response—the comments, the likes. A larger part of me feels more detached from that validation these days. For years, it was simply the mechanism, the most obvious way to let people know something existed. If you create something and release it into the world, how else do you announce it?
 
-About what it means to not post.
+But. The. Silence.
 
-About what it means to not share.
+The strange quiet of the social media realm, where something can pass through dozens of screens and leave no visible trace of having been met. It feels different from criticism. Criticism at least acknowledges impact. Silence is harder to locate, as if something was seen briefly but not held, not engaged with, not responded to in any way that confirms it arrived somewhere.
 
-About what it means to keep things to yourself.
+And for reasons that run deeper than we like to admit, that kind of silence doesn’t land as neutral. We are not built for indifference. Long before platforms and algorithms, being unseen by the group carried consequences. To be ignored was to be excluded, and exclusion meant risk. That imprint doesn’t disappear just because the stage changes; it still lives somewhere in the body, responding before the mind has time to explain anything away. So when something we care about is met with silence, it doesn’t just feel quiet—it feels like something is missing, like we didn’t quite arrive.
 
-We live in a time where silence is read as absence.
+A few days after posting the essay, I played a gig, and for the first time in years, I included my own music in the set. Afterwards, my husband said something that stopped me. We’ve known each other for almost five years—we met at one of my gigs—and he realised it was the first time, in all that time, that he had heard me play my original songs live.
 
-Where not posting is read as not creating.
+I was surprised by how true that was, not because it wasn’t accurate, but because I hadn’t fully registered it myself. Somewhere along the way, I had become very good at something else: reading the room, holding energy, giving people what works, what lands, what keeps the atmosphere moving. I could make it work. I could make a night feel good.
 
-Where not sharing is read as not existing.
+But slowly, almost invisibly, the balance shifted. My own music became something I would get to next time. Next time, next time, next time—until years had passed.
 
-But that's not true.
-
-Silence isn't absence.
-
-Silence is a choice.
-
-And sometimes,
-
-it's the most creative choice you can make.
-
-There's a pressure to document everything.
-
-To share every thought.
-
-To broadcast every moment.
-
-As if your worth is measured by your visibility.
-
-As if your value is tied to your output.
-
-As if you don't exist unless you're being seen.
-
-But I'm starting to resist this.
-
-I'm starting to protect my silence.
-
-I'm starting to keep things for myself.
-
-Not because I have nothing to share.
-
-But because not everything needs to be shared.
-
-Some things are for me.
-
-Some things are for the people I'm actually with.
-
-Some things are for the work itself.
-
-And none of those things need to be posted.
-
-None of those things need to be validated by strangers.
-
-None of those things need to be turned into content.
-
-They can just be.
-
-They can just exist.
-
-They can just be lived.
-
-And in that privacy,
-
-something else happens.
-
-The work becomes deeper.
-
-The connections become more real.
-
-The life becomes more mine.
-
-It wasn't a dramatic betrayal. It was incremental, practical, even understandable. This is, after all, how we are wired—to be received, to be included, to feel that what we offer lands somewhere outside of us. And when it doesn't, we adjust. Slightly, then a little more. Not because we are inauthentic, but because we are human.
+It wasn’t a dramatic betrayal. It was incremental, practical, even understandable. This is, after all, how we are wired—to be received, to be included, to feel that what we offer lands somewhere outside of us. And when it doesn’t, we adjust. Slightly, then a little more. Not because we are inauthentic, but because we are human.
 
 But there is a quiet cost to that. Because eventually, if you are not careful, the thing you were trying to share becomes the thing you keep postponing, and the silence you begin to feel is no longer coming from the outside.
 
-When I make something, I put myself in it. And when I share it, I'm not just offering the work—I'm exposing something of myself. Which means the risk is never neutral. It's not just that the work might not be received; it's that I might feel rejected through it.
+When I make something, I put myself in it. And when I share it, I’m not just offering the work—I’m exposing something of myself. Which means the risk is never neutral. It’s not just that the work might not be received; it’s that I might feel rejected through it.
 
 For a long time, whether I realised it or not, I chose to minimise that risk—not by stopping, but by shaping what I offered into something more easily received, something more predictable, more reliable, more likely to land. There is nothing inherently wrong with that. It kept me working, it kept me connected, it kept the music going. But it also came at a cost, because over time, the work that was actually mine became the work I kept postponing.
 
-The silence I noticed online wasn't unfamiliar. It was echoing something I had been creating myself.
+The silence I noticed online wasn’t unfamiliar. It was echoing something I had been creating myself.
 
 So this time, the decision is different. Not about forcing a response or trying harder to be seen, but about what I choose to no longer postpone. Some things land immediately; others take years to find the people who need them. That part was never mine to control.
 
@@ -1113,61 +1449,88 @@ I will stop postponing the work that is actually mine.`
               Short-form pieces. Fragments, reflections, and ideas that don't need to become essays.
             </p>
           </div>
-
-          <div className={`max-w-4xl mx-auto space-y-8 transition-all duration-1000 ease-out delay-200 ${
-            isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
-          }`}>
-            {notes.map((note) => (
-              <div
-                key={note.id}
-                onClick={() => handleNoteClick(note)}
-                className="group cursor-pointer bg-white p-8 sm:p-10 hover:shadow-lg transition-all duration-300"
-              >
-                <div className="flex items-start justify-between mb-4">
-                  <span className="font-sans text-sm text-medium-gray tracking-widest">
-                    {note.id}
-                  </span>
-                  <span className="font-sans text-sm text-medium-gray">
-                    {note.date}
-                  </span>
-                </div>
-                <h2 className="font-serif text-2xl sm:text-3xl font-light text-charcoal mb-4 leading-snug group-hover:text-medium-gray transition-colors">
-                  {note.title}
-                </h2>
-                <p className="font-sans text-base text-medium-gray leading-relaxed line-clamp-3">
-                  {note.content.split('\n').filter(line => line.trim()).slice(0, 3).join(' ')}
-                </p>
-              </div>
-            ))}
+          
+          <div 
+            ref={sectionRef}
+            className={`max-w-3xl mx-auto transition-all duration-1000 ease-out ${
+              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
+            }`}
+            style={{
+              transitionDelay: '200ms'
+            }}
+          >
+            <div className="space-y-12">
+              {notes.map((note, index) => (
+                <article
+                  key={note.id}
+                  className={`group cursor-pointer transition-all duration-300 ease-out ${
+                    isVisible 
+                      ? 'opacity-100 translate-y-0' 
+                      : 'opacity-0 translate-y-8'
+                  }`}
+                  style={{
+                    transitionDelay: isVisible ? `${400 + index * 150}ms` : '0ms'
+                  }}
+                >
+                  <button
+                    onClick={() => handleNoteClick(note)}
+                    className="w-full text-left py-8 border-b border-pale-gray/20 hover:border-charcoal/30 transition-all duration-300 ease-out"
+                  >
+                    <div className="flex items-start justify-between space-y-4">
+                      <div className="flex-1">
+                        <span className="font-sans text-xs text-medium-gray/50 tracking-[0.15em] uppercase block mb-4">
+                          Note {String(note.id).padStart(2, '0')}
+                        </span>
+                        <h3 className="font-serif text-2xl sm:text-3xl font-light text-charcoal leading-tight group-hover:text-accent/90 group-hover:translate-x-1 transition-all duration-300 ease-out mb-4">
+                          {note.title}
+                        </h3>
+                        {note.date && (
+                          <time className="font-sans text-xs text-medium-gray/40 tracking-[0.05em] block mb-6">
+                            {note.date}
+                          </time>
+                        )}
+                      </div>
+                      <div className="opacity-0 group-hover:opacity-50 transition-opacity duration-300 ease-out">
+                        <span className="text-accent text-sm font-light">→</span>
+                      </div>
+                    </div>
+                  </button>
+                </article>
+              ))}
+            </div>
           </div>
         </div>
       </section>
 
+      {/* Note Popup Modal */}
       {selectedNote && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50" onClick={closeNote}>
-          <div
-            className="bg-white max-w-3xl w-full max-h-[90vh] overflow-y-auto p-8 sm:p-12 relative"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <button
-              onClick={closeNote}
-              className="absolute top-4 right-4 text-charcoal hover:text-medium-gray transition-colors text-2xl"
-            >
-              ×
-            </button>
-            <div className="mb-8">
-              <span className="font-sans text-sm text-medium-gray tracking-widest block mb-2">
-                {selectedNote.id}
-              </span>
-              <span className="font-sans text-sm text-medium-gray block mb-6">
-                {selectedNote.date}
-              </span>
-              <h2 className="font-serif text-3xl sm:text-4xl font-light text-charcoal mb-8 leading-snug">
+        <div 
+          className="fixed inset-0 z-50 flex items-center justify-center bg-charcoal/90 backdrop-blur-sm p-8"
+          onClick={closeNote}
+        >
+          <div className="bg-off-white rounded-lg p-8 max-w-4xl mx-4 max-h-[80vh] overflow-y-auto">
+            <div className="flex items-start justify-between mb-6">
+              <h2 className="font-serif text-2xl sm:text-3xl font-light text-charcoal leading-tight mb-4">
                 {selectedNote.title}
               </h2>
+              <button
+                onClick={closeNote}
+                className="text-accent hover:text-accent/80 transition-colors duration-300"
+              >
+                Close
+              </button>
             </div>
-            <div className="font-sans text-base text-charcoal leading-relaxed whitespace-pre-line">
-              {selectedNote.content}
+            {selectedNote.date && (
+              <time className="font-sans text-xs text-medium-gray/50 tracking-[0.05em] block mb-6">
+                {selectedNote.date}
+              </time>
+            )}
+            <div className="font-sans text-sm text-medium-gray/80 leading-relaxed font-light tracking-[0.01em] space-y-4 prose prose-sm max-w-none">
+              {selectedNote.content.split('\n\n').map((paragraph, pIndex) => (
+                <p key={pIndex} className="text-justify">
+                  {paragraph}
+                </p>
+              ))}
             </div>
           </div>
         </div>
