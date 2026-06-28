@@ -28,7 +28,7 @@ const Hero = () => {
           
           {/* Tagline */}
           <p className="font-sans text-xl sm:text-2xl lg:text-3xl font-extralight text-charcoal/85 mb-20 leading-relaxed tracking-[0.05em] max-w-3xl mx-auto">
-            <a href="/essays" className="hover:text-accent transition-colors duration-300">Essays</a>, Music, and Work Built Over Time
+            One voice. Different mediums. The same question.
           </p>
           
           {/* Scroll indicator */}
