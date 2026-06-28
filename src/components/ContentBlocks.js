@@ -26,22 +26,22 @@ const ContentBlocks = () => {
 
   const contentBlocks = [
     {
-      title: "ESSAYS",
-      description: "A series of long-form essays exploring authorship, identity, and middle of life.",
+      title: "Essays",
+      description: "The essays began at forty, but they aren't about forty. They explore the questions that eventually find all of us—and invite you to think alongside me.",
       cta: "Read Essays",
       delay: 0,
       href: "/essays"
     },
     {
-      title: "MUSIC",
-      description: "Original music — recorded, written, and performed across different phases.",
+      title: "Music",
+      description: "Some questions can't be explained. They have to be sung.",
       cta: "Listen",
       delay: 150,
       href: "/music"
     },
     {
-      title: "NOTES",
-      description: "Shorter pieces. Fragments, reflections, and ideas that don't need to become essays.",
+      title: "Notes",
+      description: "Not every thought becomes an essay. The Notes are where ideas begin, evolve, and occasionally surprise me.",
       cta: "Read Notes",
       delay: 300,
       href: "/notes"
