@@ -1437,7 +1437,7 @@ I will stop postponing the work that is actually mine.`
 
   return (
     <div className="min-h-screen bg-off-white">
-      <section className="py-20 sm:py-24 lg:py-32">
+      <section ref={sectionRef} className="py-20 sm:py-24 lg:py-32">
         <div className="container-content">
           <div className={`max-w-4xl mx-auto text-center mb-32 transition-all duration-1000 ease-out ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
@@ -1451,7 +1451,6 @@ I will stop postponing the work that is actually mine.`
           </div>
           
           <div 
-            ref={sectionRef}
             className={`max-w-3xl mx-auto transition-all duration-1000 ease-out ${
               isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'
             }`}
