@@ -207,7 +207,7 @@ Authentically 40+ is a collection of eight interconnected essays that blend pers
             {/* Book cover */}
             <div className="mx-auto mb-10 w-56 sm:w-64 lg:w-72 shadow-xl rounded-sm overflow-hidden">
               <img
-                src="/Auth40+BOOK_Cover art.jpg"
+                src="/Auth40-BOOK_Cover-art.jpg"
                 alt="Authentically 40+ — The Complete Collection"
                 className="w-full h-full object-cover"
               />
