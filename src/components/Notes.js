@@ -32,7 +32,7 @@ const Notes = () => {
 
   const notes = [
     {
-      id: 21,
+      id: 14,
       title: "Female Body, it used to be less profitable to cure",
       date: "6 May 2026",
       content: `It came to my attention this morning how female sexual health used to be a lot harder to undestand and treat since they weren’t really funding a lot of case studies around it.
@@ -54,35 +54,7 @@ A newer emerging market that should be catered to.
 Kind of sad.`
     },
     {
-      id: 20,
-      title: "Vertical, Verbatim",
-      date: "3 May 2026",
-      content: `My dear friend, you deliver the truth direct and unfiltered.
-
-It’s a pleasure like few others to converse with you.
-
-As human beings, we feel the reluctance to really be seen by another.
-
-But it keeps us sheltered.
-
-It always has.
-
-My friend, confident,
-
-Vertical, Verbatim.
-
-Every word falls clean between us.
-
-No hidden edge, no aftertaste, no shifting ground beneath a phrase.
-
-Vertical, Verbatim.
-
-It’s calm, it’s clear, it doesn’t bend.
-
-We have a rare and easy trust.`
-    },
-    {
-      id: 19,
+      id: 13,
       title: "Her Mythology",
       date: "1 May 2026",
       content: `I used to carry a quiet kind of pride in being the female epitome of the emotional fugitive. A storm in a body. A spark without anchor—an enigma. I liked being seen that way. And that is where the psychological loop closes in on itself.
@@ -134,91 +106,7 @@ I can explain it now, but explanation doesn’t undo it.
 If this reaches any one of you… I’m sorry.`
     },
     {
-      id: 18,
-      title: "What You Think I Meant",
-      date: "10 April 2026",
-      content: `It doesn’t start with what was said.
-
-It starts with how it lands.
-
-A tone.
-
-A pause.
-
-Something slightly off.
-
-And in that space,
-
-you decide what it meant.
-
-Not slowly.
-
-Not carefully.
-
-Instantly.
-
-You don’t check it.
-
-You don’t question it.
-
-You move with it.
-
-Your body shifts first.
-
-Then your voice follows.
-
-And now you’re responding
-
-to something that was never actually said.
-
-They feel it.
-
-They react to your reaction.
-
-And suddenly you’re both inside something
-
-that didn’t exist a few seconds ago.
-
-It escalates quickly.
-
-Because now it’s not about the words.
-
-It’s about what the words meant.
-
-Except you’re not working with the same meaning.
-
-So you push.
-
-They push back.
-
-Or they shut down.
-
-Or you do.
-
-And somewhere underneath it,
-
-there’s a simple gap.
-
-A moment where nothing was confirmed.
-
-Nothing was clear.
-
-Just filled.
-
-Too fast.
-
-Because sitting in that space,
-
-not knowing,
-
-feels worse than being wrong.
-
-So you choose certainty.
-
-And you build on it.`
-    },
-    {
-      id: 17,
+      id: 12,
       title: "The Cost Of Saying It",
       date: "10 April 2026",
       content: `I know what would happen if I said it.
@@ -316,219 +204,7 @@ Even if what I’m protecting
 is already starting to change.`
     },
     {
-      id: 16,
-      title: "Nothing Is Wrong",
-      date: "10 April 2026",
-      content: `There’s a moment where something feels off.
-
-Not dramatically wrong.
-
-Not broken.
-
-Just… not right.
-
-You feel it in your body first.
-
-A tightness.
-
-A restlessness.
-
-A kind of internal noise you can’t quite locate.
-
-And almost immediately, your mind steps in to solve it.
-
-What’s wrong?
-
-Why do I feel like this?
-
-What caused it?
-
-You start scanning.
-
-Was it something I said?
-
-Something they did?
-
-Something I didn’t do?
-
-The search begins.
-
-Because the assumption is simple:
-
-If it feels wrong, something must be wrong.
-
-But that’s not always true.
-
-Sometimes nothing is wrong.
-
-Sometimes your body is just processing.
-
-Catching up.
-
-Moving something through that hasn’t had space to move.
-
-But the moment you label it as a problem,
-
-you interrupt the process.
-
-Now it’s no longer a feeling passing through.
-
-It’s a situation to fix.
-
-And once you start fixing,
-
-you start interfering.
-
-You tighten around it.
-
-You analyze it.
-
-You try to resolve it.
-
-And in doing so,
-
-you give it weight it didn’t have before.
-
-The feeling that might have moved quietly
-
-now stays.
-
-Not because it was important,
-
-but because you made it so.
-
-So sometimes the most accurate response is the simplest one:
-
-Nothing is wrong.
-
-Not as denial.
-
-Not as avoidance.
-
-But as restraint.
-
-A decision not to turn every internal shift
-
-into a problem that needs a solution.
-
-Because not everything you feel
-
-is asking to be understood.
-
-Some things are just passing through.`
-    },
-    {
-      id: 15,
-      title: "It Was Easier When We Didn’t Have To Try",
-      date: "10 April 2026",
-      content: `It used to be easy.
-
-Not perfect.
-
-Not dramatic.
-
-Just… easy.
-
-Things landed the way they were meant.
-
-Words didn’t need explaining.
-
-You didn’t have to check meaning.
-
-You just knew.
-
-Or it felt like you did.
-
-There was no effort in it.
-
-No strategy.
-
-No careful timing.
-
-You spoke, and it worked.
-
-So you built something on top of that.
-
-An idea.
-
-That this is what it’s supposed to be like.
-
-Natural.
-
-Aligned.
-
-Effortless.
-
-And for a long time, it was.
-
-Until it wasn’t.
-
-Now there are pauses where there weren’t before.
-
-Misfires.
-
-Moments that don’t quite land.
-
-And suddenly, something that never needed attention
-
-needs it.
-
-But there’s no language for it.
-
-Because you never had to build it.
-
-You never had to say,
-
-“That didn’t feel right.”
-
-You never had to check,
-
-“What did you mean by that?”
-
-So now, when something small shifts,
-
-you hesitate.
-
-Because speaking feels like breaking something
-
-that used to run on its own.
-
-So you leave it.
-
-You let it pass.
-
-You tell yourself it’s not worth it.
-
-That it’s small.
-
-That it’ll settle.
-
-That saying something might make it worse.
-
-And maybe it would.
-
-But not saying anything
-
-does something quieter.
-
-It slowly changes the shape of the space between you.
-
-Not all at once.
-
-Just enough that you start adjusting to it.
-
-Working around it.
-
-Staying just slightly quieter than you were before.
-
-Until one day,
-
-it’s no longer effortless.
-
-And you don’t know when that changed.`
-    },
-    {
-      id: 14,
+      id: 11,
       title: "If I Fall Asleep Now",
       date: "10 April 2026",
       content: `It starts as tiredness.
@@ -606,7 +282,7 @@ And somewhere in that absence of effort,
 your body remembers how.`
     },
     {
-      id: 13,
+      id: 10,
       title: "Cut Off",
       date: "10 April 2026",
       content: `It’s not a decision I made tonight.
@@ -720,201 +396,7 @@ But right now, it hasn’t.
 And I’m not going to pretend that it has.`
     },
     {
-      id: 12,
-      title: "What I Didn’t Say",
-      date: "10 April 2026",
-      content: `It lands in the body first.
-
-Low.
-
-Uncomfortable.
-
-A quiet kind of wrong.
-
-You feel it.
-
-Immediately.
-
-But you don’t say anything.
-
-Not yet.
-
-You wait.
-
-You try to understand it first.
-
-Try to make sure you’re not overreacting.
-
-Try to get it right.
-
-So you stay quiet.
-
-And while you’re quiet,
-
-something else happens.
-
-The feeling starts to grow.
-
-It picks up meaning.
-
-It gathers weight.
-
-What was small
-
-is no longer small.
-
-Now it has context.
-
-A story.
-
-A direction.
-
-By the time you speak,
-
-you’re not speaking from the moment anymore.
-
-You’re speaking from everything
-
-that built on top of it.
-
-And it comes out different.
-
-Heavier.
-
-Sharper.
-
-Harder to place.
-
-And now it sounds like more than it was.
-
-Because it is.
-
-Not because of what happened,
-
-but because of what wasn’t said
-
-when it first arrived.
-
-So it sits there instead.
-
-In the body.
-
-In the throat.
-
-Half-formed.
-
-Half-held.
-
-Waiting for a moment
-
-that would have been easier
-
-when it was still small.`
-    },
-    {
-      id: 11,
-      title: "I Chose Not To Say It",
-      date: "10 April 2026",
-      content: `I felt it.
-
-Clear.
-
-Immediate.
-
-Not confusing.
-
-Something in me knew
-
-that something had just gone slightly off.
-
-And there was a moment.
-
-A small one.
-
-Where I could have said it.
-
-Not dramatically.
-
-Not perfectly.
-
-Just enough.
-
-But I didn’t.
-
-Not because I didn’t know how.
-
-Not because I needed more time.
-
-I knew.
-
-I chose not to.
-
-I told myself it wasn’t worth it.
-
-That it was small.
-
-That it would pass.
-
-That saying something might shift the mood.
-
-Might turn something light into something heavy.
-
-So I let it go.
-
-Outwardly.
-
-But it didn’t go anywhere.
-
-It stayed.
-
-In the body.
-
-In the throat.
-
-Right where it first landed.
-
-And from there, it changed.
-
-It picked up shape.
-
-Tone.
-
-Meaning.
-
-It started connecting to other moments.
-
-Other times I had done the same thing.
-
-And now it wasn’t just this.
-
-It was everything like this.
-
-By the time I spoke again,
-
-I was no longer in that moment.
-
-I was in all of them.
-
-And it came out like that.
-
-Bigger than it needed to be.
-
-Harder than I meant it.
-
-And impossible to trace back
-
-to where it actually started.
-
-But I know where it started.
-
-It started
-
-when I chose
-
-not to say it.`
-    },
-    {
-      id: 10,
+      id: 9,
       title: "I Still Choose You",
       date: "10 April 2026",
       content: `It’s not as easy as it was.
@@ -998,7 +480,7 @@ But the version
 that does.`
     },
     {
-      id: 9,
+      id: 8,
       title: "The Violence in a Smile",
       date: "6 April 2026",
       content: `I looked up teeth whitening today.
@@ -1128,7 +610,7 @@ A smile, after all, is not the absence of the bite.
 It is the decision of what to do with it.`
     },
     {
-      id: 8,
+      id: 7,
       title: "Everybody wants to be seen…right?",
       date: "5 April 2026",
       content: `He says something that is just 0.001% off what I truly feel, and I’m already correcting.
@@ -1148,7 +630,7 @@ He’s good at his job. He reads people; finds trends. And he pinpointed me in u
 It’s terrifying to be seen. And realizing that I’m more of a stereotype than I thought - not the precious snowflake of a personality that I thought I had so carefully curated.`
     },
     {
-      id: 7,
+      id: 6,
       title: "When You’re in the Thick of It",
       date: "31 March 2026",
       content: `I’ve made the mistake.
@@ -1182,7 +664,7 @@ But right now all I can do is repeat that last sentence over and over to drown o
 This too shall pass. Everything does.`
     },
     {
-      id: 6,
+      id: 5,
       title: "Both, And More. Part 2",
       date: "29 March 2026",
       content: `There’s a pattern I’ve come to recognise.
@@ -1250,7 +732,7 @@ Both. And more.
 And then… back again.`
     },
     {
-      id: 5,
+      id: 4,
       title: "When You Do It Right… and Nothing Happens",
       date: "27 March 2026",
       content: `There’s a strange kind of gap that shows up when you start doing things more deliberately.
@@ -1278,7 +760,7 @@ Because it asks for patience, and for a kind of restraint that goes against the 
 I’m still working out how to tell the difference.`
     },
     {
-      id: 4,
+      id: 3,
       title: "The Past Doesn’t Ask Permission",
       date: "19 March 2026",
       content: `There are moments where I react to something small like it’s something big. Not logically, not proportionally—just immediately. Emotion first, reasoning later. And in those moments, it feels completely real.
@@ -1310,7 +792,7 @@ It waits.
 And under pressure, it speaks.`
     },
     {
-      id: 3,
+      id: 2,
       title: "Petrichor",
       date: "12 March 2026",
       content: `A Storm Outside the Mind
@@ -1392,7 +874,7 @@ And for a little while, sitting inside that rhythm, my mind rests.
 When the storm moves through the sky, my mind no longer has to be one.`
     },
     {
-      id: 2,
+      id: 1,
       title: "Silence in the Social Media Realm",
       date: "12 March 2026",
       content: `I gave it at least two days before checking the response—the comments, the likes. A larger part of me feels more detached from that validation these days. For years, it was simply the mechanism, the most obvious way to let people know something existed. If you create something and release it into the world, how else do you announce it?
