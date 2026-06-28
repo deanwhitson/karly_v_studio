@@ -157,11 +157,27 @@ Not an essay about achieving immortality. An essay about participation — and
     }
   ];
 
+  const bookDescription = `Authentically 40+ began with a simple realisation: turning forty wasn't the destination. It was the doorway.
+
+Beyond that doorway lay questions that had become impossible for me to ignore—questions about identity, the body, emotional stability, connection, desire, creativity, authority, mortality, and what it really means to live well.
+
+Although these essays begin at midlife, they aren't about midlife alone. Forty simply became the point at which I could no longer postpone asking the questions. The building beyond that doorway is open to anyone who has ever stopped to wonder about the life they're creating, regardless of age.
+
+As both a writer and musician, I find myself returning to the same question in different forms, across everything I create:
+
+"How do we do this life thing, right here, right now, while being prepared for tomorrow?"
+
+I don't arrive with answers already formed. I arrive with questions and invite readers to think alongside me. The essays are an honest record of that process—following an idea where it leads, questioning my own assumptions, and remaining open to being changed by what I discover.
+
+Authentically 40+ is a collection of eight interconnected essays that blend personal experience with psychology, philosophy, creativity, and everyday life. They aren't a roadmap for getting life right. They're an invitation to slow down, pay closer attention, and perhaps leave with better questions than the ones you arrived with.`;
+
   return (
     <div className="min-h-screen bg-off-white">
-      <section className="py-20 sm:py-24 lg:py-32">
+
+      {/* ── Page heading ── */}
+      <section className="pt-20 sm:pt-24 lg:pt-32 pb-0">
         <div className="container-content">
-          <div className={`max-w-4xl mx-auto text-center mb-24 transition-all duration-1000 ease-out ${
+          <div className={`max-w-4xl mx-auto text-center mb-16 transition-all duration-1000 ease-out ${
             isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}>
             <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl font-light text-charcoal mb-8 leading-tight tracking-tight">
@@ -171,22 +187,95 @@ Not an essay about achieving immortality. An essay about participation — and
               Long-form writing exploring identity, authorship, and the middle of life.
             </p>
           </div>
-          
-          <div 
+        </div>
+      </section>
+
+      {/* ── Book hero ── */}
+      <section className="py-12 sm:py-16 lg:py-20">
+        <div className="container-content">
+          <div
             ref={sectionRef}
-            className="max-w-6xl mx-auto"
+            className={`max-w-3xl mx-auto text-center transition-all duration-1000 ease-out ${
+              isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
+            }`}
           >
+            {/* Eyebrow label */}
+            <p className="font-sans text-xs font-light tracking-[0.2em] uppercase text-medium-gray mb-8">
+              The Complete Collection
+            </p>
+
+            {/* Book cover */}
+            <div className="mx-auto mb-10 w-56 sm:w-64 lg:w-72 shadow-xl rounded-sm overflow-hidden">
+              <img
+                src="/Auth40+BOOK_Cover art.jpg"
+                alt="Authentically 40+ — The Complete Collection"
+                className="w-full h-full object-cover"
+              />
+            </div>
+
+            {/* Book title */}
+            <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-light text-charcoal mb-3 leading-tight tracking-tight">
+              Authentically 40+
+            </h2>
+            <p className="font-sans text-base sm:text-lg font-light text-medium-gray mb-10 tracking-[0.04em]">
+              All Eight Essays — One Volume
+            </p>
+
+            {/* Description */}
+            <div className="text-left max-w-2xl mx-auto space-y-5 mb-12">
+              {bookDescription.split('\n\n').map((paragraph, i) => (
+                <p
+                  key={i}
+                  className={`font-sans font-light leading-relaxed text-medium-gray ${
+                    paragraph.startsWith('"') ? 'italic text-charcoal text-center text-lg' : 'text-base sm:text-[17px]'
+                  }`}
+                >
+                  {paragraph}
+                </p>
+              ))}
+            </div>
+
+            {/* Buy button */}
+            <a
+              href="https://www.amazon.com/AUTHENTICALLY-40-Full-8-Essay-ebook/dp/B0H48J982G/ref=sr_1_3?crid=3N99K2X2JY8NO&dib=eyJ2IjoiMSJ9.0mxn5crxWLMWJyJdH81BVoft2oWFWJDKJhTtDp5yBcEQ2r4g_vhGNFhKJOZMRGDNn8BgrnCHOcCcu4cWZO_DmI3dw3po86g8tm-XzuTk1opmJElSGvu_fJhgBp9QqEaSWhetO9Kdx6hZ1weao0U36H_OTSuZUTP9J0OggojclVRFdR9F-XEvnS01No3ulwJ2iOTulHeb29AhFS0_TmV2hz_sBEjzkJORegYBusYQZ4Q.xErhq_khfJf-AWOoZmELrHb85qMBYyt8ofjTdb_4a6k&dib_tag=se&keywords=karly+v&qid=1782673554&sprefix=karly%2Caps%2C575&sr=8-3"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center space-x-3 px-8 py-3.5 bg-charcoal text-off-white font-sans font-light text-sm tracking-[0.1em] uppercase hover:bg-medium-gray transition-all duration-300 ease-out"
+            >
+              <span>Purchase the Collection</span>
+              <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* ── Divider ── */}
+      <div className="container-content">
+        <div className="max-w-6xl mx-auto">
+          <hr className="border-pale-gray/40 my-4" />
+        </div>
+      </div>
+
+      {/* ── Individual essays grid ── */}
+      <section className="py-16 sm:py-20 lg:py-24">
+        <div className="container-content">
+          <div className="max-w-6xl mx-auto">
+            <p className="font-sans text-xs font-light tracking-[0.2em] uppercase text-medium-gray mb-14 text-center">
+              Individual Essays
+            </p>
             <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12 lg:gap-16">
               {essays.map((essay, index) => (
                 <div
                   key={essay.id}
                   className={`transition-all duration-300 ease-out ${
-                    isVisible 
-                      ? 'opacity-100 translate-y-0' 
+                    isVisible
+                      ? 'opacity-100 translate-y-0'
                       : 'opacity-0 translate-y-12'
                   }`}
                   style={{
-                    transitionDelay: isVisible ? `${600 + index * 150}ms` : '0ms'
+                    transitionDelay: isVisible ? `${800 + index * 120}ms` : '0ms'
                   }}
                 >
                   <EssayCard
@@ -202,6 +291,7 @@ Not an essay about achieving immortality. An essay about participation — and
           </div>
         </div>
       </section>
+
     </div>
   );
 };
