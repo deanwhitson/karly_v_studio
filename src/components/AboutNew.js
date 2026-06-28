@@ -38,13 +38,12 @@ const About = () => {
             <div className="w-16 h-0.5 bg-accent mx-auto"></div>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-6 md:gap-8 max-w-4xl">
-            <div className="md:col-span-2 mb-2">
-              <h3 className="font-serif text-xl font-light text-charcoal mb-4">I'm Karly V — a musician, writer, and voice artist.</h3>
-              <p className="text-charcoal font-light tracking-[0.01em]">
-                My work spans music, essays, and visual composition, but it all comes from the same place: a need to understand and make sense of experience.
-              </p>
-            </div>
+          <div className="max-w-3xl mx-auto space-y-6">
+            <h3 className="font-serif text-xl font-light text-charcoal mb-4">I'm Karly V — a musician, writer, and voice artist.</h3>
+
+            <p className="text-charcoal font-light tracking-[0.01em]">
+              My work spans music, essays, and visual composition, but it all comes from the same place: a need to understand and make sense of experience.
+            </p>
             
             <p className="text-charcoal font-light tracking-[0.01em]">
               Creating like this isn't optional for me. If things stay unstructured — in thought, in emotion, in memory — they build. Writing, music, and visual work are how I process them properly.
@@ -70,7 +69,7 @@ const About = () => {
               Everything here is written from my perspective — shaped by what I've experienced, what I've questioned, and what I've been able to understand with the information available to me.
             </p>
             
-            <p className="text-charcoal font-light tracking-[0.01em] md:col-span-2">
+            <p className="text-charcoal font-light tracking-[0.01em]">
               The aim isn't to provide answers. It's to explore things properly — and, in doing that, to make them feel a little more grounded.
             </p>
           </div>
