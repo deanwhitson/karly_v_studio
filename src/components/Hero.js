@@ -16,18 +16,18 @@ const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex flex-col relative overflow-hidden">
       {/* Title Above Image */}
-      <div className="relative z-10 w-full px-6 sm:px-8 lg:px-12 pt-20 sm:pt-32">
+      <div className="relative z-10 w-full px-6 sm:px-8 lg:px-12 pt-16 sm:pt-24 lg:pt-32">
         <div 
           ref={heroRef}
           className="animate-on-scroll text-center max-w-6xl mx-auto"
         >
           {/* Large centered title */}
-          <h1 className="font-serif text-7xl sm:text-8xl lg:text-9xl font-thin text-charcoal mb-12 leading-none tracking-tight">
+          <h1 className="font-serif text-6xl sm:text-7xl lg:text-9xl font-thin text-charcoal mb-6 sm:mb-10 lg:mb-12 leading-none tracking-tight">
             Karly V
           </h1>
           
           {/* Tagline */}
-          <p className="font-sans text-xl sm:text-2xl lg:text-3xl font-extralight text-charcoal/85 mb-20 leading-relaxed tracking-[0.05em] max-w-3xl mx-auto">
+          <p className="font-sans text-lg sm:text-xl lg:text-3xl font-extralight text-charcoal/85 mb-10 sm:mb-16 lg:mb-20 leading-relaxed tracking-[0.05em] max-w-3xl mx-auto">
             One voice. Different mediums. The same question.
           </p>
           
@@ -42,12 +42,12 @@ const Hero = () => {
       </div>
       
       {/* Hero Image Background */}
-      <div className="flex-1 relative">
+      <div className="flex-1 relative min-h-[40vh] sm:min-h-[50vh]">
         <div className="absolute inset-0 bg-gradient-to-br from-charcoal/30 via-charcoal/15 to-charcoal/50"></div>
         <img 
           src="/hero-image3 - 8 JUNE 26.png" 
           alt="Karly V Studio" 
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-contain sm:object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-charcoal/70 via-charcoal/30 to-transparent"></div>
       </div>
