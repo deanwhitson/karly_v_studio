@@ -169,7 +169,9 @@ As both a writer and musician, I find myself returning to the same question in d
 
 I don't arrive with answers already formed. I arrive with questions and invite readers to think alongside me. The essays are an honest record of that process—following an idea where it leads, questioning my own assumptions, and remaining open to being changed by what I discover.
 
-Authentically 40+ is a collection of eight interconnected essays that blend personal experience with psychology, philosophy, creativity, and everyday life. They aren't a roadmap for getting life right. They're an invitation to slow down, pay closer attention, and perhaps leave with better questions than the ones you arrived with.`;
+Authentically 40+ is a collection of eight interconnected essays that blend personal experience with psychology, philosophy, creativity, and everyday life. They aren't a roadmap for getting life right. They're an invitation to slow down, pay closer attention, and perhaps leave with better questions than the ones you arrived with.
+
+Available as a digital copy as well as paperback.`;
 
   return (
     <div className="min-h-screen bg-off-white">
