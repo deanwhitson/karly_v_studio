@@ -184,7 +184,7 @@ Authentically 40+ is a collection of eight interconnected essays that blend pers
               Essays
             </h1>
             <p className="font-sans text-xl sm:text-2xl font-light text-medium-gray leading-relaxed tracking-[0.02em] max-w-3xl mx-auto">
-              Long-form writing exploring identity, authorship, and the middle of life.
+              The essays began at forty, but they aren't about forty. They explore the questions that eventually find all of us—and invite you to think alongside me.
             </p>
           </div>
         </div>

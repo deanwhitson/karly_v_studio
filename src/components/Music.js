@@ -139,7 +139,7 @@ const Music = () => {
             
             {/* Subtitle */}
             <p className="font-sans text-xl sm:text-2xl lg:text-3xl font-extralight text-charcoal/85 mb-8 leading-relaxed tracking-[0.05em] max-w-3xl mx-auto transition-all duration-300 ease-out hover:text-charcoal">
-              Recorded, written, and performed across different phases.
+              Some questions can't be explained. They have to be sung.
             </p>
             
             {/* Scroll indicator */}

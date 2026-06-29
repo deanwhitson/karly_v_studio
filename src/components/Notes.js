@@ -928,7 +928,7 @@ I will stop postponing the work that is actually mine.`
               Notes
             </h1>
             <p className="font-sans text-xl sm:text-2xl font-light text-medium-gray leading-relaxed tracking-[0.02em] max-w-3xl mx-auto">
-              Short-form pieces. Fragments, reflections, and ideas that don't need to become essays.
+              Not every thought becomes an essay. The Notes are where ideas begin, evolve, and occasionally surprise me.
             </p>
           </div>
           
