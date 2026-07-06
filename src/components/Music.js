@@ -67,13 +67,12 @@ const Music = () => {
     },
     {
       id: 4,
-      title: "Coming Soon",
-      cover: "/music/track-4.jpg",
-      previewUrl: "/music/electric-hearts-preview.mp3",
-      fullVersionAvailable: false,
-      purchaseUrl: "#",
-      streamingUrl: "#",
-      comingSoon: true
+      title: "Rebel Crown",
+      cover: "/SongsAndCovers/Rebel Crown Cover Art.png",
+      previewUrl: "/SongsAndCovers/WEBSITE Song Teaser - Rebel Crown.wav",
+      fullVersionAvailable: true,
+      purchaseUrl: "https://distrokid.com/hyperfollow/karlyv/rebel-crown-2",
+      streamingUrl: "#"
     },
     {
       id: 5,
